@@ -17,7 +17,7 @@ if [[ ! -x $WGET ]]; then
 fi
 
 if [[ ! -e $DOT_HOME ]]; then
-  git clone git@github.com:ljank/dotfiles.git $DOT_HOME
+  git clone git@github.com:astrauka/dotfiles.git $DOT_HOME
 fi
 
 if [[ -e $SUBLIME_PATH ]]; then
