@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"BeautifyRuby",
 		"BracketHighlighter",
 		"ChangeQuotes",
 		"Enhanced Clojure",
@@ -9,8 +10,11 @@
 		"GitGutter",
 		"lispindent",
 		"LiveStyle",
+		"paredit",
 		"Rake",
 		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
 		"SublimeREPL",
 		"Theme - Soda"
 	]
