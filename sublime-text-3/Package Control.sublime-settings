@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"All Autocomplete",
 		"BeautifyRuby",
 		"BracketHighlighter",
@@ -12,6 +13,7 @@
 		"LiveStyle",
 		"paredit",
 		"Rake",
+		"RSpec",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
