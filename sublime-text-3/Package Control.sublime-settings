@@ -17,6 +17,7 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-rubocop",
 		"SublimeREPL",
 		"Theme - Soda"
 	]
