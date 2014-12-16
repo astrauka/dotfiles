@@ -1,0 +1,5 @@
+{
+  "rspec_command_env": "NO_DATABASE_LOAD=true",
+  "check_for_rvm": true,
+  "check_for_spring": true,
+}

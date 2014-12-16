@@ -14,11 +14,14 @@
 		"paredit",
 		"Rake",
 		"RSpec",
+		"Ruby Slim",
 		"SideBarEnhancements",
+		"sublime-text-2-ruby-tests",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-rubocop",
 		"SublimeREPL",
-		"Theme - Soda"
+		"Theme - Soda",
+		"YAML Nav"
 	]
 }
