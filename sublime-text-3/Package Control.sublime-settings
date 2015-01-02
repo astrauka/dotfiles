@@ -1,4 +1,12 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -10,13 +18,13 @@
 		"Git",
 		"GitGutter",
 		"lispindent",
-		"LiveStyle",
+		"Package Control",
 		"paredit",
 		"Rake",
 		"RSpec",
 		"Ruby Slim",
+		"RubyTest",
 		"SideBarEnhancements",
-		"sublime-text-2-ruby-tests",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-rubocop",

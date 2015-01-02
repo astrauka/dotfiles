@@ -21,7 +21,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"LiveStyle"
 	],
 	"match_brackets": false,
 	"rulers":
