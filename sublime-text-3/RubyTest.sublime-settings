@@ -1,6 +1,7 @@
 {
   "rspec_command_env": "NO_DATABASE_LOAD=true",
+  "save_on_run": true,
   "check_for_rvm": true,
   "check_for_bundler": true,
-  "check_for_spring": true,
+  "check_for_spring": true
 }

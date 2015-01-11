@@ -19,6 +19,9 @@
   { "keys": ["super+ctrl+c"], "command": "side_bar_copy_path_absolute_from_project"},
   { "keys": ["super+ctrl+m"], "command": "back_to_definition"},
 
+  // CTags bindings
+  { "command": "navigate_to_definition", "keys": ["super+o"] },
+
   // SublimeREPL bindings:
   // =====================
   { "keys": ["super+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},
