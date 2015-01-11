@@ -22,6 +22,18 @@
   // CTags bindings
   { "command": "navigate_to_definition", "keys": ["super+o"] },
 
+  // FileBrowser
+  {
+    "keys": ["ctrl+d"],
+    "command": "dired",
+    "args": {
+      "immediate": true,
+      "single_pane": true,
+      "other_group": "left",
+      "project": true
+    }
+  },
+
   // SublimeREPL bindings:
   // =====================
   { "keys": ["super+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},

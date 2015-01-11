@@ -16,6 +16,7 @@
 		"ChangeQuotes",
 		"CTags",
 		"Enhanced Clojure",
+		"FileBrowser",
 		"Git",
 		"GitGutter",
 		"lispindent",
