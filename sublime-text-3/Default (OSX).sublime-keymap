@@ -34,6 +34,20 @@
     }
   },
 
+  // Markdown Preview
+  {
+    "keys": ["ctrl+m"],
+    "command": "markdown_preview",
+    "args": {
+      "target": "browser",
+      "parser": "github"
+    }
+  },
+
+  // Keybindings
+  { "keys": ["ctrl+?"], "command": "cheat_sheet" },
+  { "keys": ["ctrl+/"], "command": "find_keymap" },
+
   // SublimeREPL bindings:
   // =====================
   { "keys": ["super+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},
