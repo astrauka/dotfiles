@@ -5,6 +5,12 @@
 	"auto_find_in_selection": true,
 	"color_scheme": "Packages/User/Solarized (Light) (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".zeus.sock",
+		".tags",
+		".tags_sorted_by_file"
+	],
 	"folder_exclude_patterns":
 	[
 		"node_modules",
@@ -13,7 +19,6 @@
 		".svn",
 		"tmp",
 		"log",
-		".zeus.sock",
 		"spec/reports"
 	],
 	"font_face": "Monaco",

@@ -48,6 +48,57 @@
   { "keys": ["ctrl+?"], "command": "cheat_sheet" },
   { "keys": ["ctrl+/"], "command": "find_keymap" },
 
+  // Github Tools
+  { "keys": ["ctrl+g", "g"], "command": "public_gist_from_selection" },
+  { "keys": ["ctrl+g", "p"], "command": "private_gist_from_selection" },
+  { "keys": ["ctrl+g", "o"], "command": "open_gist_in_editor" },
+  { "keys": ["ctrl+g", "w"], "command": "open_gist_in_browser" },
+  { "keys": ["ctrl+g", "v"], "command": "open_remote_url" },
+  { "keys": ["ctrl+g", "c"], "command": "copy_remote_url" },
+  { "keys": ["ctrl+g", "b"], "command": "blame" },
+  { "keys": ["ctrl+g", "h"], "command": "history" },
+
+  // Shell commands
+  { "keys": ["ctrl+c", "c"], "command": "shell_command" },
+  {
+    "keys": ["c"],
+    "command": "shell_command_refresh",
+    "command_prefix": "source $HOME/.bashrc",
+    "context": [{ "key": "setting.ShellCommand" }]
+  },
+  {
+    "keys": ["ctrl+c", "r"],
+    "command": "shell_command",
+    "args": {
+      "command_prefix": "source $HOME/.bashrc && rvm-auto-ruby -S",
+      "prompt": "Shell Command"
+    }
+  },
+  { // Process list
+    "keys": ["ctrl+c", "p"],
+    "command": "shell_command",
+    "args": {
+      "command": "ps xcro user,pid,%cpu,cputime,%mem,command | head -n 28",
+    }
+  },
+  { // mysql process list
+    "keys": ["ctrl+c", "s"],
+    "command": "shell_command",
+    "args": {
+      "command": "ps aux | grep mysql",
+    }
+  },
+  { // Send SIGKILL to a process number selected
+    // in a Shell Command Window
+    "keys": ["K"],
+    "command": "shell_command",
+    "args": {
+      "command": "kill -9",
+      "region": "arg"
+    },
+    "context": [{ "key": "setting.ShellCommand" }]
+  },
+
   // SublimeREPL bindings:
   // =====================
   { "keys": ["super+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},
