@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+attr_reader ${1:attributes}
+
+def initialize(${1/://g})
+  ${1/:/@/g} = ${1/://g}
+end
+
+]]></content>
+  <tabTrigger>attr_r</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>
