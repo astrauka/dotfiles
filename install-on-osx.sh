@@ -2,6 +2,8 @@
 
 DOT_HOME="$HOME/dotfiles"
 SUBLIME_PATH="$HOME/Library/Application Support/Sublime Text 3"
+PACKAGES_PATH="$SUBLIME_PATH/Packages"
+USER_PACKAGES_PATH="$SUBLIME_PATH/Packages/User"
 
 WGET=`which wget`
 GIT=`which git`
@@ -17,13 +19,13 @@ if [[ ! -x $WGET ]]; then
 fi
 
 if [[ ! -e $DOT_HOME ]]; then
-  git clone git@github.com:astrauka/dotfiles.git $DOT_HOME
+  $GIT clone git@github.com:astrauka/dotfiles.git $DOT_HOME
 fi
 
 if [[ -e $SUBLIME_PATH ]]; then
   echo "Configuring Sublime.."
-  rm -frv "$SUBLIME_PATH/Packages/User"
-  ln -sv "$DOT_HOME/sublime-text-3/" "$SUBLIME_PATH/Packages/User"
+  rm -frv "$USER_PACKAGES_PATH"
+  ln -sv "$DOT_HOME/sublime-text-3/" "$USER_PACKAGES_PATH"
 
   PACKAGE_CONTROL_PKG="$SUBLIME_PATH/Installed Packages/Package Control.sublime-package"
   if [[ ! -e "$PACKAGE_CONTROL_PKG" ]]; then
@@ -40,4 +42,5 @@ else
   echo "[Warn] Sublime not installed!"
 fi
 
+chmod +x "$DOT_HOME/setup*"
 echo "Done!"

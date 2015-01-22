@@ -1,17 +1,23 @@
-My personal dotfiles
-========
+# My personal dotfiles
 
-Installing on Mac OS X
---------
+## Installing on Mac OS X
 
-    curl https://raw.github.com/astrauka/dotfiles/master/install-on-osx.sh | sh
+```
+curl https://raw.github.com/astrauka/dotfiles/master/install-on-osx.sh | sh
+```
 
-Installing on Linux
---------
+#### Ruby setup
 
-    curl https://raw.github.com/astrauka/dotfiles/master/install-on-linux.sh | sh
+```
+~/dotfiles/setup-ruby-on-osx.sh
+```
 
-TODO
-========
+## Installing on Linux
+
+```
+curl https://raw.github.com/astrauka/dotfiles/master/install-on-linux.sh | sh
+```
+
+## TODO
 
 - stop reinventing the wheel

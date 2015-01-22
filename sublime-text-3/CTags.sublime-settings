@@ -1,5 +1,5 @@
 {
-  "autocomplete": true,
+  "autocomplete": false,
   "definition_current_first": true,
   "select_searched_symbol": false,
   "command": "source $HOME/.bashrc && rvm-auto-ruby -S ripper-tags",
