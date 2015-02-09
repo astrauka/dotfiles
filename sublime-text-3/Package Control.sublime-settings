@@ -2,16 +2,8 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
-		"All Autocomplete",
-		"BeautifyRuby",
 		"BracketHighlighter",
 		"ChangeQuotes",
 		"CTags",
@@ -19,19 +11,14 @@
 		"FileBrowser",
 		"Git",
 		"GitGutter",
-		"Github Tools",
 		"GotoDocumentation",
 		"Keymaps",
 		"lispindent",
 		"Markdown Preview",
 		"Package Control",
-		"paredit",
-		"Rake",
 		"RSpec",
-		"Ruby Slim",
 		"RubyTest",
 		"Shell Command",
-		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-rubocop",
