@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 DOT_HOME="$HOME/dotfiles"
+CLOJURE_SETUP_HOME="$DOT_HOME/SublimeClojureSetup"
 SUBLIME_PATH="$HOME/.config/sublime-text-3"
 
 WGET=`which wget`
@@ -20,6 +21,10 @@ if [[ ! -e $DOT_HOME ]]; then
   git clone git@github.com:astrauka/dotfiles.git $DOT_HOME
 fi
 
+if [[ ! -e $CLOJURE_SETUP_HOME ]]; then
+  git clone git@github.com:jasongilman/SublimeClojureSetup.git $CLOJURE_SETUP_HOME
+fi
+
 if [[ -e $SUBLIME_PATH ]]; then
   echo "Configuring Sublime.."
   rm -frv "$SUBLIME_PATH/Packages/User"
@@ -37,4 +42,5 @@ else
   echo "[Warn] Sublime not installed!"
 fi
 
+chmod +x "$DOT_HOME/setup*"
 echo "Done!"
