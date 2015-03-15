@@ -2,7 +2,8 @@
 
 DOT_HOME="$HOME/dotfiles"
 SUBLIME_PATH="$HOME/.config/sublime-text-3"
-
+PACKAGES_PATH="$SUBLIME_PATH/Packages"
+USER_PACKAGES_PATH="$SUBLIME_PATH/Packages/User"
 WGET=`which wget`
 GIT=`which git`
 
