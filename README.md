@@ -1,25 +1,32 @@
 # My personal dotfiles
 
-## Installing on Mac OS X
+Works for OSX and Linux
+
+## Installing
 
 ```
-curl https://raw.github.com/astrauka/dotfiles/master/osx/install.sh | sh
+git clone git@github.com:astrauka/dotfiles.git ~/dotfiles
+cd ~/dotfiles/install
+chmod +x *
 ```
 
-#### Ruby setup
+### Sublime
 
 ```
-~/dotfiles/osx/setup-ruby.sh
+./sublime.sh
 ```
 
-## Installing on Linux
+#### Sublime Ruby Test
 
 ```
-curl https://raw.github.com/astrauka/dotfiles/master/linux/install.sh | sh
+./sublime-ruby-test.sh
 ```
 
-#### Ruby setup
+### Bash profile
+
+Append your `.bash_profile` file with:
 
 ```
-~/dotfiles/linux/setup-ruby.sh
+# dotfiles
+source $HOME/dotfiles/bashrc/sources/*
 ```

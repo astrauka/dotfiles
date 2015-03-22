@@ -1,2 +1,1 @@
-echo 'GIT'
 alias git_br="git for-each-ref --sort=committerdate refs/heads/"
