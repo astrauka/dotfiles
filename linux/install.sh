@@ -38,4 +38,6 @@ else
   echo "[Warn] Sublime not installed!"
 fi
 
+chmod +x $DOT_HOME/linux/*
+
 echo "Done!"

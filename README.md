@@ -3,21 +3,23 @@
 ## Installing on Mac OS X
 
 ```
-curl https://raw.github.com/astrauka/dotfiles/master/install-on-osx.sh | sh
+curl https://raw.github.com/astrauka/dotfiles/master/osx/install.sh | sh
 ```
 
 #### Ruby setup
 
 ```
-~/dotfiles/setup-ruby-on-osx.sh
+~/dotfiles/osx/setup-ruby.sh
 ```
 
 ## Installing on Linux
 
 ```
-curl https://raw.github.com/astrauka/dotfiles/master/install-on-linux.sh | sh
+curl https://raw.github.com/astrauka/dotfiles/master/linux/install.sh | sh
 ```
 
-## TODO
+#### Ruby setup
 
-- stop reinventing the wheel
+```
+~/dotfiles/linux/setup-ruby.sh
+```

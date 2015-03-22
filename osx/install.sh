@@ -42,5 +42,5 @@ else
   echo "[Warn] Sublime not installed!"
 fi
 
-chmod +x $DOT_HOME/setup*
+chmod +x $DOT_HOME/osx/*
 echo "Done!"

@@ -1,0 +1,6 @@
+alias b='bundle exec'
+alias s='spring'
+alias bs='bundle exec spring'
+
+alias remove_orig='find . -type f -name "*\.orig" -exec rm -f {} \;'
+alias clear_logs='> log/test.log; > log/development.log'
