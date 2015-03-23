@@ -28,5 +28,9 @@ Append your `.bash_profile` file with:
 
 ```
 # dotfiles
-source $HOME/dotfiles/bashrc/sources/*
+source "$HOME/dotfiles/bashrc/sources/git"
+source "$HOME/dotfiles/bashrc/sources/postgres"
+source "$HOME/dotfiles/bashrc/sources/rbenv"
+source "$HOME/dotfiles/bashrc/sources/ruby"
+source "$HOME/dotfiles/bashrc/sources/tmux"
 ```
