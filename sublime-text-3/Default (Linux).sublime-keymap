@@ -260,4 +260,32 @@
   { "keys": ["ctrl+alt+t"], "command": "bh_key", "args": {"plugin": {"type": ["cfml", "html", "angle"], "command": "bh_modules.tagnameselect"} } },
   // Toggle high visibility mode
   { "keys": ["alt+super+="], "command": "bh_toggle_high_visibility"},
+
+  // RubyTest
+  { "keys": ["super+shift+r"], "command": "run_single_ruby_test",
+    "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  }, // single test
+  { "keys": ["super+shift+t"], "command": "run_all_ruby_test",
+      "context": [ { "key": "selector", "operator": "equal",
+                    "operand": "source.ruby, source.rspec, text.gherkin.feature"
+                } ]
+  }, // test file
+  { "keys": ["super+shift+e"], "command": "run_last_ruby_test" }, // test last test file
+  { "keys": ["super+shift+x"], "command": "show_test_panel" }, // show test panel
+  { "keys": ["super+period"],
+      "command": "switch_between_code_and_test",
+      "args": {"split_view": false},
+      "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  }, // switch between code and test in single mode
+  { "keys": ["super+shift+period"],
+      "command": "switch_between_code_and_test",
+      "args": {"split_view": true},
+      "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  }, // switch between code and test in split view
 ]
