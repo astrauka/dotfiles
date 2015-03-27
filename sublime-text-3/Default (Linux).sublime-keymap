@@ -47,8 +47,8 @@
   { "keys": ["f4"], "command": "next_result" },
   { "keys": ["shift+f4"], "command": "prev_result" },
 
-  { "keys": ["super+shift+up"], "command": "swap_line_up" },
-  { "keys": ["super+shift+down"], "command": "swap_line_down" },
+  { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
   { "keys": ["super+backspace"], "command": "delete_word", "args": { "forward": false } },
   { "keys": ["super+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },

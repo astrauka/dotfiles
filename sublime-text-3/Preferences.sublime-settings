@@ -38,6 +38,7 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
 	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
