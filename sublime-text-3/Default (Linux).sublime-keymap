@@ -148,7 +148,8 @@
   { "keys": ["ctrl+w"], "command": "focus_neighboring_group" },
   { "keys": ["ctrl+shift+j"], "command": "select_lines", "args": {"forward": true} },
   { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": false} },
-  { "keys": ["super+ctrl+c"], "command": "side_bar_copy_path_absolute_from_project"},
+  { "keys": ["ctrl+c, ctrl+p"], "command": "copy_path"},
+  { "keys": ["ctrl+c, ctrl+c"], "command": "copy_filepath_with_line_numbers"},
   { "keys": ["super+ctrl+m"], "command": "back_to_definition"},
 
   // CTags bindings

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+describe '${1:method}' do
+  ${2:content}
+end
+]]></content>
+  <tabTrigger>sdesc</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>
