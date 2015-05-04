@@ -31,6 +31,7 @@ Append your `.bash_profile` file with:
 
 ```
 # dotfiles
+source "$HOME/dotfiles/bashrc/sources/terminal"
 source "$HOME/dotfiles/bashrc/sources/ctags"
 source "$HOME/dotfiles/bashrc/sources/git"
 source "$HOME/dotfiles/bashrc/sources/postgres"
