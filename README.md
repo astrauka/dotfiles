@@ -34,3 +34,9 @@ source "$HOME/dotfiles/bashrc/sources/rbenv"
 source "$HOME/dotfiles/bashrc/sources/ruby"
 source "$HOME/dotfiles/bashrc/sources/tmux"
 ```
+
+### Tmuxinator
+
+```
+./tmux.sh
+```
