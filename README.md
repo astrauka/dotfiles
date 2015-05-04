@@ -18,6 +18,7 @@ chmod +x *
 ./tmux.sh
 ./vim.sh
 ./git.sh
+./rbenv-rehash.sh
 ```
 
 ### Bash profile
