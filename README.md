@@ -10,16 +10,14 @@ cd ~/dotfiles/install
 chmod +x *
 ```
 
-### Sublime
+### Stuff of your choice
 
 ```
 ./sublime.sh
-```
-
-#### Sublime Ruby Test
-
-```
 ./sublime-ruby-test.sh
+./tmux.sh
+./vim.sh
+./git.sh
 ```
 
 ### Bash profile
@@ -33,16 +31,4 @@ source "$HOME/dotfiles/bashrc/sources/postgres"
 source "$HOME/dotfiles/bashrc/sources/rbenv"
 source "$HOME/dotfiles/bashrc/sources/ruby"
 source "$HOME/dotfiles/bashrc/sources/tmux"
-```
-
-### Tmuxinator
-
-```
-./tmux.sh
-```
-
-### Vim
-
-```
-./vim.sh
 ```
