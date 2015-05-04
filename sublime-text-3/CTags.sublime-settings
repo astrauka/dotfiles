@@ -3,6 +3,5 @@
   "definition_current_first": true,
   "select_searched_symbol": false,
   //Ripper RVM "command": "source $HOME/.bashrc && rvm-auto-ruby -S ripper-tags"
-  //Ripper rbenv "command": "~/.rbenv/shims/ripper-tags"
-  "command": "/usr/local/bin/ctags -R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)"
+  "command": "~/.rbenv/shims/ripper-tags"
 }

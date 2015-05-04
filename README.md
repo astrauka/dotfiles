@@ -18,7 +18,6 @@ chmod +x *
 ./tmux.sh
 ./vim.sh
 ./git.sh
-./ctags.sh
 
 # require rbenv to be installed
 ./rbenv-rehash.sh
