@@ -1,0 +1,26 @@
+[user]
+    name = Karolis Astrauka
+    email = astrauka@gmail.com
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    aa = add --all
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[branch]
+    autosetuprebase = always
+[branch "master"]
+    rebase = true
+[rebase]
+    stat = true
+[push]
+    default = current
+[web]
+    browser = open
+[core]
+    excludesfile = ~/.gitignore

@@ -10,7 +10,7 @@ fi
 
 $GIT clone https://github.com/astrauka/vimfiles ~/.vim
 
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/vimrc.bundles ~/.vimrc.bundles
+ln -sf ~/.vim/vimrc ~/.vimrc
+ln -sf ~/.vim/vimrc.bundles ~/.vimrc.bundles
 
 echo "Launch vim and run :BundleInstall to complete installation"
