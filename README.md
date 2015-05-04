@@ -18,7 +18,11 @@ chmod +x *
 ./tmux.sh
 ./vim.sh
 ./git.sh
+./ctags.sh
+
+# require rbenv to be installed
 ./rbenv-rehash.sh
+./rbenv-default-gems.sh
 ```
 
 ### Bash profile
@@ -27,6 +31,7 @@ Append your `.bash_profile` file with:
 
 ```
 # dotfiles
+source "$HOME/dotfiles/bashrc/sources/ctags"
 source "$HOME/dotfiles/bashrc/sources/git"
 source "$HOME/dotfiles/bashrc/sources/postgres"
 source "$HOME/dotfiles/bashrc/sources/rbenv"
