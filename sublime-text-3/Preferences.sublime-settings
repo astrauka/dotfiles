@@ -22,8 +22,6 @@
 		"log",
 		"spec/reports"
 	],
-	"font_face": "Monospace",
-	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
