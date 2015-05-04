@@ -40,3 +40,9 @@ source "$HOME/dotfiles/bashrc/sources/tmux"
 ```
 ./tmux.sh
 ```
+
+### Vim
+
+```
+./vim.sh
+```
