@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+subject { ${1:subject} }
+]]></content>
+  <tabTrigger>ssubject</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

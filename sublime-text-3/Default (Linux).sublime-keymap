@@ -17,9 +17,6 @@
   { "keys": ["super+insert"], "command": "copy" },
   { "keys": ["shift+insert"], "command": "paste" },
 
-  { "keys": ["super+x"], "command": "cut" },
-  { "keys": ["super+c"], "command": "copy" },
-  { "keys": ["super+v"], "command": "paste" },
   { "keys": ["super+shift+v"], "command": "paste_and_indent" },
   { "keys": ["super+k", "super+v"], "command": "paste_from_history" },
 
@@ -148,8 +145,8 @@
   { "keys": ["ctrl+w"], "command": "focus_neighboring_group" },
   { "keys": ["ctrl+shift+j"], "command": "select_lines", "args": {"forward": true} },
   { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": false} },
-  { "keys": ["ctrl+c, ctrl+p"], "command": "copy_path"},
-  { "keys": ["ctrl+c, ctrl+c"], "command": "copy_filepath_with_line_numbers"},
+  { "keys": ["ctrl+p, ctrl+c"], "command": "copy_path"},
+  { "keys": ["ctrl+p, ctrl+p"], "command": "copy_filepath_with_line_numbers"},
   { "keys": ["super+ctrl+m"], "command": "back_to_definition"},
 
   // CTags bindings
@@ -192,7 +189,7 @@
   { "keys": ["ctrl+g", "h"], "command": "history" },
 
   // Shell commands
-  { "keys": ["ctrl+c", "c"], "command": "shell_command" },
+  { "keys": ["ctrl+s", "c"], "command": "shell_command" },
   {
     "keys": ["c"],
     "command": "shell_command_refresh",
@@ -200,7 +197,7 @@
     "context": [{ "key": "setting.ShellCommand" }]
   },
   {
-    "keys": ["ctrl+c", "r"],
+    "keys": ["ctrl+s", "r"],
     "command": "shell_command",
     "args": {
       "command_prefix": "source $HOME/.bashrc && rvm-auto-ruby -S",
@@ -208,14 +205,14 @@
     }
   },
   { // Process list
-    "keys": ["ctrl+c", "p"],
+    "keys": ["ctrl+s", "p"],
     "command": "shell_command",
     "args": {
       "command": "ps xcro user,pid,%cpu,cputime,%mem,command | head -n 28",
     }
   },
   { // mysql process list
-    "keys": ["ctrl+c", "s"],
+    "keys": ["ctrl+s", "s"],
     "command": "shell_command",
     "args": {
       "command": "ps aux | grep mysql",
@@ -289,4 +286,8 @@
                    "operand": "source.ruby, source.rspec, text.gherkin.feature"
                } ]
   }, // switch between code and test in split view
+
+  { "keys": ["ctrl+x"], "command": "cut" },
+  { "keys": ["ctrl+c"], "command": "copy" },
+  { "keys": ["ctrl+v"], "command": "paste" },
 ]

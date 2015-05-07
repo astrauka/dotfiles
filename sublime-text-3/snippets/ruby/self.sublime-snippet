@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+def self.${1:method}(${2:params})
+  new(${2}).run
+end
+
+def run
+end
+]]></content>
+  <tabTrigger>sdef</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>
+
