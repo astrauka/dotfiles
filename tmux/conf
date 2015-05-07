@@ -1,0 +1,61 @@
+# Allows us to use C-a a <command> to send commands to a TMUX session inside 
+# another TMUX session
+set-option -g prefix C-q
+bind-key C-q last-window
+
+# UTF-8 as default
+set-window-option -g utf8 on
+set-option -g status-utf8 on
+
+# Default Shell for Tmux
+set-option -g default-shell /bin/bash
+
+# Color Support
+set -g default-terminal "screen-256color"
+
+# auto window rename
+set-window-option -g automatic-rename
+
+# Mouse Support for panes
+set-option -g mouse-select-pane on
+set-option -g mouse-select-window on
+set-option -g mode-mouse on
+
+# set window split
+bind-key v split-window -h
+bind-key b split-window
+
+set -g status-interval 1
+
+# Start numbering at 1
+set -g base-index 1
+
+# Allows for faster key repetition
+set -s escape-time 0
+
+# Rather than constraining window size to the maximum size of any client 
+# connected to the *session*, constrain window size to the maximum size of any 
+# client connected to *that window*. Much more reasonable.
+setw -g aggressive-resize on
+
+# Vi copypaste mode
+set-window-option -g mode-keys vi
+bind-key -t vi-copy 'v' begin-selection
+bind-key -t vi-copy 'y' copy-selection
+
+# hjkl pane traversal
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+# reload config
+bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
+
+# https://github.com/edkolev/dots/blob/master/tmux.conf
+# Updates for tmux 1.9's current pane splitting paths.
+if-shell "[[ `tmux -V` == *1.9* ]]" 'unbind c; bind c new-window -c "#{pane_current_path}"'
+if-shell "[[ `tmux -V` == *1.9* ]]" 'unbind s; bind s split-window -v -c "#{pane_current_path}"'
+if-shell "[[ `tmux -V` == *1.9* ]]" "unbind '\"'; bind '\"' split-window -v -c '#{pane_current_path}'"
+if-shell "[[ `tmux -V` == *1.9* ]]" 'unbind v; bind v split-window -h -c "#{pane_current_path}"'
+if-shell "[[ `tmux -V` == *1.9* ]]" 'unbind %; bind % split-window -h -c "#{pane_current_path}"'

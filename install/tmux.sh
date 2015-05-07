@@ -3,12 +3,11 @@
 echo "Configuring tmuxinator"
 source "./config.sh"
 
-if [[ -e ~/.tmux ]]; then
+if [[ -e ~/.tmux.conf ]]; then
   echo "Info: tmux configuration already setup. Done"
   exit 1
 fi
 
-$GIT clone https://github.com/tony/tmux-config.git ~/.tmux
-ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
+ln -sf "$DOT_HOME/tmux/conf" ~/.tmux.conf
 
 echo "Tmuxinator configured"
