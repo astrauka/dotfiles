@@ -5,11 +5,10 @@ require 'spec_helper'
 RSpec.describe ${1:class} do
   describe '${2:method}' do
     subject { described_class${2}${3:params} }
-    ${4:content}
   end
 end
 ]]></content>
-  <tabTrigger>sreq_c</tabTrigger>
+  <tabTrigger>screq</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>
 

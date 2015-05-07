@@ -7,6 +7,6 @@ def initialize(${1/://g})
 end
 
 ]]></content>
-  <tabTrigger>attr_r</tabTrigger>
+  <tabTrigger>sattr_r</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>
