@@ -1,3 +1,4 @@
+CURL=`which curl`
 WGET=`which wget`
 GIT=`which git`
 DOTFILES_REPO="git@github.com:astrauka/dotfiles.git"

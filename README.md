@@ -19,9 +19,13 @@ chmod +x *
 ./vim.sh
 ./git.sh
 
-# require rbenv to be installed
+# requires rbenv to be installed
 ./rbenv-rehash.sh
 ./rbenv-default-gems.sh
+
+# node
+./node-npm
+./node-browserify
 ```
 
 ### Bash profile
@@ -37,4 +41,5 @@ source "$HOME/dotfiles/bashrc/sources/postgres"
 source "$HOME/dotfiles/bashrc/sources/rbenv"
 source "$HOME/dotfiles/bashrc/sources/ruby"
 source "$HOME/dotfiles/bashrc/sources/tmux"
+source "$HOME/dotfiles/bashrc/sources/npm"
 ```
