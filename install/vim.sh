@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Configuring vim"
-source "./config.sh"
+source "$HOME/dotfiles/install/config.sh"
 
 if [[ -e ~/.vim ]]; then
   echo "Info: vim configuration already setup. Done"

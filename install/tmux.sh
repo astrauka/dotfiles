@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Configuring tmuxinator"
-source "./config.sh"
+source "$HOME/dotfiles/install/config.sh"
 
 if [[ -e ~/.tmux.conf ]]; then
   echo "Info: tmux configuration already setup. Done"

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Configuring rbenv-default-gems"
-source "./config.sh"
+source "$HOME/dotfiles/install/config.sh"
 
 PLUGIN_PATH="~/.rbenv/plugins/rbenv-default-gems"
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Sourcing variables"
-source "./config.sh"
+source "$HOME/dotfiles/install/config.sh"
 
 if [[ ! -e $SUBLIME_PATH ]]; then
   echo "Error: Sublime not installed!"

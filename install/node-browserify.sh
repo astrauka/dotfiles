@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 echo "Configuring browserify"
-
-source "../bashrc/sources/npm"
+source "$HOME/dotfiles/install/config.sh"
+source "$HOME/dotfiles/bashrc/sources/npm"
 
 npm install -g browserify
 npm link browserify

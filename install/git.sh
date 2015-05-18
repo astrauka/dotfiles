@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Configuring git"
-source "./config.sh"
+source "$HOME/dotfiles/install/config.sh"
 
 if [[ -e ~/.git-completion.bash ]]; then
   echo "Info: configuration already setup. Done"

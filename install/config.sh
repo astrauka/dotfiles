@@ -20,3 +20,6 @@ PACKAGE_CONTROL_PKG="$SUBLIME_PATH/Installed Packages/Package Control.sublime-pa
 # sublime-ruby-test
 RUBY_TEST_PATH="$PACKAGES_PATH/RubyTest"
 RUBY_TEST_REPO="https://github.com/astrauka/sublime-text-2-ruby-tests.git"
+
+# node
+NVM_PATH="$HOME/.nvm"
