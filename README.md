@@ -24,8 +24,8 @@ chmod +x *
 ./rbenv-default-gems.sh
 
 # node
-./node-npm
-./node-browserify
+./node-npm.sh
+./node-browserify.sh
 ```
 
 ### Bash profile
