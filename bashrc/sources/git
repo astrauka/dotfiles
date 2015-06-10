@@ -1,4 +1,5 @@
 alias git_br="git for-each-ref --sort=committerdate refs/heads/"
+alias ggm="git checkout master; git pull"
 
 if [ -f ~/.git-completion.bash  ]; then
   . ~/.git-completion.bash
