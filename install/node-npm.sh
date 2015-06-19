@@ -8,7 +8,7 @@ if [ -e "$NVM_PATH" ]; then
   exit 1
 fi
 
-$CURL https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+$CURL -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 
 source "$DOT_HOME/bashrc/sources/npm"
 nvm install stable
