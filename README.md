@@ -25,7 +25,6 @@ chmod +x *
 
 # node
 ./node-npm.sh
-./node-browserify.sh
 ```
 
 ### Bash profile
