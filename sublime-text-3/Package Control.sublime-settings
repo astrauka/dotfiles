@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Babel",
 		"BracketHighlighter",
 		"ChangeQuotes",
 		"Copy Filepath With Line Numbers",
