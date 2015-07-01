@@ -29,6 +29,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
+		"SublimeLinter-jsxhint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeREPL",
