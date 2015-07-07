@@ -7,6 +7,12 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
+            "jshint": {
+                "@disable": false,
+                "esnext": true,
+                "args": [],
+                "excludes": []
+            },
             "rubocop": {
                 "@disable": false,
                 "args": [],
