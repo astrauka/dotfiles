@@ -83,6 +83,7 @@
   { "keys": ["super+shift+8"], "command": "move_to_group", "args": { "group": 7 } },
   { "keys": ["super+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
 
+  { "keys": ["shift+alt+1"], "command": "set_layout", "args": { "cells": [[0, 0, 1, 1]], "cols": [0.0, 1.0], "rows": [0.0, 1.0] } },
   { "keys": ["super+k", "super+u"], "command": "upper_case" },
   { "keys": ["super+k", "super+l"], "command": "lower_case" },
 
