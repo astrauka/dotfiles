@@ -1,7 +1,5 @@
 <snippet>
   <content><![CDATA[
-require 'spec_helper'
-
 RSpec.describe ${1:class} do
   describe '${2:method}' do
     subject { ${3:actor}${2}${4:params} }
