@@ -35,7 +35,7 @@ if [[ ! -e "$PACKAGE_CONTROL_PKG" ]]; then
   echo 'Package Control installed.'
 fi
 
-if [ OS_TYPE="OSX" ]; then
+if [ $OS_TYPE="OSX" ]; then
   defaults write -g ApplePressAndHoldEnabled -bool false
 fi
 
