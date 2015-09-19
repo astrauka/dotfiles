@@ -22,10 +22,12 @@
 		"log",
 		"spec/reports"
 	],
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 	],
+	"index_files": true,
 	"match_brackets": false,
 	"rulers":
 	[
