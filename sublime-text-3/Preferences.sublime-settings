@@ -22,7 +22,7 @@
 		"log",
 		"spec/reports"
 	],
-	"font_size": 10,
+	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
