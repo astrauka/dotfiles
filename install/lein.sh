@@ -3,13 +3,13 @@
 echo "Configuring leinigen"
 source "$HOME/dotfiles/install/config.sh"
 
+if [ `which lein` ]; then
+  echo "Info: already setup. Done"
+  exit 1
+fi
+
 LEIN_PATH="$HOME/bin"
 LEIN_EXEC="$LEIN_PATH/lein"
-
-if [ -e "$LEIN_PATH" ]; then
-  echo "Info: already setup. Done"
-  # exit 1
-fi
 
 mkdir -p $LEIN_PATH
 

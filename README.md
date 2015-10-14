@@ -19,6 +19,7 @@ chmod +x *
 ./vim.sh
 ./git.sh
 ./xclip.sh
+./emacs.sh
 
 # requires rbenv to be installed
 ./rbenv-rehash.sh

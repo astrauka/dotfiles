@@ -2,6 +2,7 @@ CURL=`which curl`
 WGET=`which wget`
 GIT=`which git`
 DOTFILES_REPO="git@github.com:astrauka/dotfiles.git"
+EMACS_CONFIG_REPO="git@github.com:astrauka/oh-my-emacs.git"
 DOT_HOME="$HOME/dotfiles"
 
 if [[ "$OSTYPE" =~ ^linux  ]]; then
