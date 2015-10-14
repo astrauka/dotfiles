@@ -18,6 +18,7 @@ chmod +x *
 ./tmux.sh
 ./vim.sh
 ./git.sh
+./xclip.sh
 
 # requires rbenv to be installed
 ./rbenv-rehash.sh
@@ -41,4 +42,5 @@ source "$HOME/dotfiles/bashrc/sources/rbenv"
 source "$HOME/dotfiles/bashrc/sources/ruby"
 source "$HOME/dotfiles/bashrc/sources/tmux"
 source "$HOME/dotfiles/bashrc/sources/npm"
+source "$HOME/dotfiles/bashrc/sources/xclip"
 ```
