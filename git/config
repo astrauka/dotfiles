@@ -24,3 +24,5 @@
     browser = open
 [core]
     excludesfile = ~/.gitignore
+[commit]
+	template = /home/astrauka/.git_commit_msg.txt
