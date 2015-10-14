@@ -26,6 +26,9 @@ chmod +x *
 
 # node
 ./node-npm.sh
+
+# clojurescript
+./lein.sh
 ```
 
 ### Bash profile
@@ -43,4 +46,5 @@ source "$HOME/dotfiles/bashrc/sources/ruby"
 source "$HOME/dotfiles/bashrc/sources/tmux"
 source "$HOME/dotfiles/bashrc/sources/npm"
 source "$HOME/dotfiles/bashrc/sources/xclip"
+source "$HOME/dotfiles/bashrc/sources/lein"
 ```
