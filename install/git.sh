@@ -8,6 +8,10 @@ if [[ -e ~/.git-completion.bash ]]; then
   exit 1
 fi
 
+if [ $OS_TYPE!="OSX" ]; then
+  sudo apt-get install -y meld
+fi
+
 $CURL https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
 ln -sf "$DOT_HOME/git/config" ~/.gitconfig
