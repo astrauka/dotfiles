@@ -12,9 +12,9 @@ if [ $OS_TYPE!="OSX" ]; then
   sudo apt-get install -y emacs24 mercurial texinfo emacs24-el editorconfig autocong
 fi
 
-rm -rf ~/.emacs ~/.emacs.d
+rm -rf ~/.emacs
 
-$GIT clone $EMACS_CONFIG_REPO ~/.emacs.d
+bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/install-emacs-live.sh)
 ln -sf "$DOT_HOME/lein/profiles.clj" ~/.lein/profiles.clj
 
 echo "Done"
