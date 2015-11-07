@@ -28,8 +28,9 @@ chmod +x *
 # node
 ./node-npm.sh
 
-# clojurescript
+# clojure
 ./lein.sh
+./clj.sh
 ```
 
 ### Bash profile
@@ -38,6 +39,7 @@ Append your `.bash_profile` file with:
 
 ```
 # dotfiles
+source "$HOME/dotfiles/bashrc/sources/common"
 source "$HOME/dotfiles/bashrc/sources/terminal"
 source "$HOME/dotfiles/bashrc/sources/ctags"
 source "$HOME/dotfiles/bashrc/sources/git"

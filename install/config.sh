@@ -4,6 +4,7 @@ GIT=`which git`
 DOTFILES_REPO="git@github.com:astrauka/dotfiles.git"
 EMACS_CONFIG_REPO="git@github.com:astrauka/oh-my-emacs.git"
 DOT_HOME="$HOME/dotfiles"
+BIN_PATH="$HOME/bin"
 
 if [[ "$OSTYPE" =~ ^linux  ]]; then
   OS_TYPE="LINUX"
@@ -24,3 +25,5 @@ RUBY_TEST_REPO="https://github.com/astrauka/sublime-text-2-ruby-tests.git"
 
 # node
 NVM_PATH="$HOME/.nvm"
+
+mkdir -p $BIN_PATH
