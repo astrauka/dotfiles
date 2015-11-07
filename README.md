@@ -50,4 +50,5 @@ source "$HOME/dotfiles/bashrc/sources/tmux"
 source "$HOME/dotfiles/bashrc/sources/npm"
 source "$HOME/dotfiles/bashrc/sources/xclip"
 source "$HOME/dotfiles/bashrc/sources/lein"
+source "$HOME/dotfiles/bashrc/sources/emacs"
 ```
