@@ -17,4 +17,14 @@ rm -rf ~/.emacs
 bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/install-emacs-live.sh)
 ln -sf "$DOT_HOME/lein/profiles.clj" ~/.lein/profiles.clj
 
+git clone https://github.com/dan-compton/evilmode-pack ~/.evilmode-pack
+cd ~/.evilmode-pack
+git submodule init
+git submodule update
+
+cd "$DOT_HOME/install"
+
+rm -rf ~/.emacs-live.el
+ln -sf "$DOT_HOME/emacs/emacs-live.el" ~/.emacs-live.el
+
 echo "Done"
