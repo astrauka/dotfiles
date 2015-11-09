@@ -34,7 +34,7 @@
 			},
 			"rubocop":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
@@ -44,7 +44,7 @@
 			},
 			"ruby":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
