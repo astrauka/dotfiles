@@ -1,1 +1,3 @@
 export PATH="$HOME/bin:${PATH}"
+alias lock_screen="qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
+alias start_pomodoro="sleep 1500 && lock_screen; sleep 300 && notify-send 'back to work'"
