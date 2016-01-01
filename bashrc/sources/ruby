@@ -1,6 +1,24 @@
 alias b="bundle exec"
 alias s="spring"
 alias bs="bundle exec spring"
+find_rails() {
+  if [ -f bin/rails2 ];
+  then
+    ./bin/rails $1
+  else
+    bundle exec rails $1
+  fi
+}
+alias r="find_rails"
+find_spring_rails() {
+  if [ -f bin/rails ];
+  then
+    ./bin/rails $1
+  else
+    bundle exec spring rails $1
+  fi
+}
+alias rs="find_spring_rails"
 
 alias remove_orig="find . -type f -name "*\.orig" -exec rm -f {} \;"
 alias clear_logs="> log/test.log; > log/development.log"
