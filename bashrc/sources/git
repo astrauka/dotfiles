@@ -1,5 +1,7 @@
-alias git_br="git for-each-ref --sort=committerdate refs/heads/"
 alias ggm="git checkout master; git pull"
+alias ggbr="git for-each-ref --sort=committerdate refs/heads/"
+alias ggbrpurge='git branch --merged | grep -v "\*" | grep -v "master" | grep -v "develop" | grep -v "staging" | xargs -n 1 git branch -d'
+
 
 if [ -f ~/.git-completion.bash  ]; then
   . ~/.git-completion.bash

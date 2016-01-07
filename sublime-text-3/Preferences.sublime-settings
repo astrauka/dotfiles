@@ -28,7 +28,7 @@
 	[
 	],
 	"index_files": true,
-	"match_brackets": false,
+	"match_brackets": true,
 	"rulers":
 	[
 		99
