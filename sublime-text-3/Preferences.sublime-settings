@@ -20,7 +20,10 @@
 		".svn",
 		"tmp",
 		"log",
-		"spec/reports"
+		"spec/reports",
+		"build",
+		"target",
+		"out"
 	],
 	"font_size": 9,
 	"highlight_line": true,
