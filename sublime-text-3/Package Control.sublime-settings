@@ -14,6 +14,7 @@
 		"Cucumber",
 		"Emmet",
 		"Enhanced Clojure",
+		"Ensime",
 		"ERB Autocomplete",
 		"FileBrowser",
 		"Git",
@@ -41,6 +42,7 @@
 		"SublimeLinter-ruby",
 		"SublimeREPL",
 		"Syntax Highlighting for Sass",
+		"Table Cleaner",
 		"Tag",
 		"Theme - Soda",
 		"YAML Nav"
