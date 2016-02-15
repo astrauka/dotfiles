@@ -27,7 +27,8 @@
 		"spec/reports",
 		"build",
 		"target",
-		"out"
+		"out",
+		".ensime_cache"
 	],
 	"font_size": 9,
 	"highlight_line": true,
