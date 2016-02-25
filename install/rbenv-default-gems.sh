@@ -3,7 +3,7 @@
 echo "Configuring rbenv-default-gems"
 source "$HOME/dotfiles/install/config.sh"
 
-PLUGIN_PATH="~/.rbenv/plugins/rbenv-default-gems"
+PLUGIN_PATH="$HOME/.rbenv/plugins/rbenv-default-gems"
 
 if [[ -e $PLUGIN_PATH ]]; then
   echo "Info: already setup. Done"
