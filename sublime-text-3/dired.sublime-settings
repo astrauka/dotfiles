@@ -1,9 +1,9 @@
 {
 	"dired_jump_points":
 	{
+		"thread_configs": "/home/astrauka/dev/vinted/core/app/domain/member/msg_threads/configurations/",
 		"spec_thread_configs": "/home/astrauka/dev/vinted/core/spec/domain/member/msg_threads/configurations/",
-		"thread_actions": "/home/astrauka/dev/vinted/core/app/views/member/msg_threads/thread/actions/",
-		"thread_configs": "/home/astrauka/dev/vinted/core/app/domain/member/msg_threads/configurations/"
+		"thread_actions": "/home/astrauka/dev/vinted/core/app/views/member/msg_threads/thread/actions/"
 	},
 	"dired_to_copy":
 	[
