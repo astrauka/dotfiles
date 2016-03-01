@@ -269,4 +269,5 @@
   { "keys": ["ctrl+x"], "command": "cut" },
   { "keys": ["ctrl+c"], "command": "copy" },
   { "keys": ["ctrl+v"], "command": "paste" },
+  { "keys": ["alt+shift+w"], "command": "test_current_line" },
 ]
