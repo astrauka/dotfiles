@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+${1:name}[label="${2:title}"];
+]]></content>
+  <tabTrigger>slabel</tabTrigger>
+  <scope>source.dot</scope>
+</snippet>
+
+
