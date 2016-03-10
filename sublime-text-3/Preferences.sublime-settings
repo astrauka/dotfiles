@@ -35,7 +35,6 @@
 	"ignored_packages":
 	[
 		"Ensime",
-		"RubyTest"
 	],
 	"index_files": true,
 	"match_brackets": true,
