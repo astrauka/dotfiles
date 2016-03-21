@@ -1,0 +1,48 @@
+[
+  // test current line
+  {
+    "keys": ["alt+shift+r"],
+    "command": "test_current_line",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.ruby, source.rspec"
+      }
+    ]
+  },
+
+  // test current file
+  {
+    "keys": ["alt+shift+t"],
+    "command": "test_current_file",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.ruby, source.rspec"
+      }
+    ]
+  },
+
+  // run last spec
+  { "keys": ["alt+shift+e"], "command": "run_last_spec" },
+
+  // display output panel
+  { "keys": ["alt+shift+x"], "command": "display_output_panel" },
+
+  // switch between code and test
+  {
+    "keys": ["alt+period"],
+    "command": "switch_between_code_and_test",
+    "context": [
+      {
+        "key": "selector", "operator": "equal",
+        "operand": "source.ruby, source.rspec"
+      }
+    ]
+  },
+
+  // create spec file
+  { "keys": ["alt+shift+c"], "command": "create_spec_file" },
+]

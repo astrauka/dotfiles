@@ -35,6 +35,8 @@
 	"ignored_packages":
 	[
 		"Ensime",
+		"RubyTest",
+		"YAML Nav"
 	],
 	"index_files": true,
 	"match_brackets": true,

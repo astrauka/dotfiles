@@ -19,6 +19,7 @@ chmod +x *
 ./vim.sh
 ./git.sh
 ./xclip.sh
+./xscast.sh
 ./emacs.sh
 
 # requires rbenv to be installed
@@ -49,6 +50,7 @@ source "$HOME/dotfiles/bashrc/sources/ruby"
 source "$HOME/dotfiles/bashrc/sources/tmux"
 source "$HOME/dotfiles/bashrc/sources/npm"
 source "$HOME/dotfiles/bashrc/sources/xclip"
+source "$HOME/dotfiles/bashrc/sources/xscast"
 source "$HOME/dotfiles/bashrc/sources/lein"
 source "$HOME/dotfiles/bashrc/sources/emacs"
 ```

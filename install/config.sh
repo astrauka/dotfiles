@@ -25,4 +25,8 @@ RUBY_TEST_REPO="https://github.com/astrauka/sublime-text-2-ruby-tests.git"
 # node
 NVM_PATH="$HOME/.nvm"
 
+# xscast
+XSCAST_REPO="git@github.com:KeyboardFire/xscast.git"
+XSCAST_PATH="$HOME/.xscast"
+
 mkdir -p $BIN_PATH
