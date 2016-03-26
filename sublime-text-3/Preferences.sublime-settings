@@ -7,7 +7,7 @@
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
 	"auto_find_in_selection": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Material-Theme-OceanicNext (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -29,14 +29,12 @@
 		"target",
 		"out",
 		".ensime_cache",
-		"webpack",
+		"webpack"
 	],
 	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Ensime",
-		"RubyTest",
 		"Cucumber",
 		"Emmet",
 		"Enhanced Clojure",
@@ -44,6 +42,7 @@
 		"Extract Sublime Package",
 		"lispindent",
 		"Monokai Extended",
+		"Neutron",
 		"paredit",
 		"RubyTest",
 		"ShellCommand",
@@ -51,8 +50,18 @@
 		"Theme - Soda",
 		"YAML Nav"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"index_files": true,
 	"match_brackets": true,
+	"material_theme_accent_lime": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
 	"rulers":
 	[
 		99
@@ -62,6 +71,7 @@
 	"show_full_path": true,
 	"spell_check": true,
 	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
