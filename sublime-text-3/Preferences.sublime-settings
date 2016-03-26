@@ -28,7 +28,8 @@
 		"build",
 		"target",
 		"out",
-		".ensime_cache"
+		".ensime_cache",
+		"webpack",
 	],
 	"font_size": 9,
 	"highlight_line": true,
@@ -36,6 +37,18 @@
 	[
 		"Ensime",
 		"RubyTest",
+		"Cucumber",
+		"Emmet",
+		"Enhanced Clojure",
+		"Ensime",
+		"Extract Sublime Package",
+		"lispindent",
+		"Monokai Extended",
+		"paredit",
+		"RubyTest",
+		"ShellCommand",
+		"Tag",
+		"Theme - Soda",
 		"YAML Nav"
 	],
 	"index_files": true,
