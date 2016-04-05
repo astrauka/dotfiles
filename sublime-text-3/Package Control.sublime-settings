@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
 		"BracketHighlighter",
@@ -36,7 +37,6 @@
 		"paredit",
 		"RSpec",
 		"Ruby Slim",
-		"RubyTest",
 		"ShellCommand",
 		"SublimeCodeIntel",
 		"SublimeLinter",
@@ -47,7 +47,7 @@
 		"SublimeREPL",
 		"Syntax Highlighting for Sass",
 		"Table Cleaner",
-		"Tag",
+		"Test RSpec",
 		"Theme - Soda",
 		"YAML Nav"
 	]

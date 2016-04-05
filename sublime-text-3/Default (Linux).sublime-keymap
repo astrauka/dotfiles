@@ -288,4 +288,8 @@
   },
   // create spec file
   { "keys": ["alt+shift+c"], "command": "create_spec_file" },
+
+  // Github
+  // ===========================
+  { "keys": ["alt+shift+g"], "command": "git_blame" },
 ]

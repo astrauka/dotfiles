@@ -1,14 +1,16 @@
 {
 	"added_words":
 	[
-		"performant"
+		"performant",
+		"favourites"
 	],
 	"animation_enabled": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
 	"auto_find_in_selection": true,
-	"color_scheme": "Packages/User/SublimeLinter/Material-Theme-OceanicNext (SL).tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"disable_tab_abbreviations": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -36,7 +38,6 @@
 	"ignored_packages":
 	[
 		"Cucumber",
-		"Emmet",
 		"Enhanced Clojure",
 		"Ensime",
 		"Extract Sublime Package",
@@ -44,9 +45,7 @@
 		"Monokai Extended",
 		"Neutron",
 		"paredit",
-		"RubyTest",
 		"ShellCommand",
-		"Tag",
 		"Theme - Soda",
 		"YAML Nav"
 	],
