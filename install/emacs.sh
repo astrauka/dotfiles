@@ -8,7 +8,7 @@ if [ `which emacs` ]; then
   exit 1
 fi
 
-if [ $OS_TYPE!="OSX" ]; then
+if [[ $OS_TYPE != "OSX" ]]; then
   sudo apt-get install -y emacs24 mercurial texinfo emacs24-el editorconfig autocong
 fi
 

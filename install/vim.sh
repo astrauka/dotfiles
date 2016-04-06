@@ -8,6 +8,12 @@ if [[ -e ~/.vim ]]; then
   exit 1
 fi
 
+if ! [ `which vim` ]; then
+  if [[ $OS_TYPE != "OSX" ]]; then
+    sudo apt-get install -y vim
+  fi
+fi
+
 $GIT clone https://github.com/astrauka/vimfiles ~/.vim
 
 ln -sf ~/.vim/vimrc ~/.vimrc

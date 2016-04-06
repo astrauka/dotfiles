@@ -8,7 +8,7 @@ if [ `which xscast` ]; then
   exit 1
 fi
 
-if [ $OS_TYPE!="OSX" ]; then
+if [[ $OS_TYPE != "OSX" ]]; then
   sudo apt-get install byzanz x11-utils xinput dzen2
 fi
 

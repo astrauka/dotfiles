@@ -17,11 +17,14 @@ chmod +x *
 ./sublime-ruby-test.sh
 ./tmux.sh
 ./vim.sh
+# see output how to install vim plugins
+
 ./git.sh
 ./xclip.sh
 ./xscast.sh
 ./emacs.sh
 
+./rbenv.sh
 # requires rbenv to be installed
 ./rbenv-rehash.sh
 ./rbenv-default-gems.sh

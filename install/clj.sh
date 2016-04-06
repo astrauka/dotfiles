@@ -4,7 +4,7 @@ echo "Configuring clj"
 source "$HOME/dotfiles/install/config.sh"
 
 if ! [ `which rlwrap` ]; then
-  if [ $OS_TYPE!="OSX" ]; then
+  if [[ $OS_TYPE != "OSX" ]]; then
     sudo apt-get install -y rlwrap
   fi
 fi

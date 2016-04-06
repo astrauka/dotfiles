@@ -8,7 +8,7 @@ if [ `which xclip` ]; then
   exit 1
 fi
 
-if [ $OS_TYPE!="OSX" ]; then
+if [[ $OS_TYPE != "OSX" ]]; then
   sudo apt-get install xclip
 fi
 
