@@ -17,6 +17,7 @@
   { "keys": ["super+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
   { "keys": ["alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
+  { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
@@ -76,7 +77,7 @@
   // Normal
   { "keys": ["alt+b"], "command": "build" },
   { "keys": ["alt+'"], "command": "change_quotes" },
-  { "keys": ["ctrl+s"], "command": "save" },
+  { "keys": ["super+s"], "command": "save" },
   { "keys": ["alt+w"], "command": "close" },
   { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 

@@ -28,6 +28,7 @@ chmod +x *
 # requires rbenv to be installed
 ./rbenv-rehash.sh
 ./rbenv-default-gems.sh
+./rbenv-sudo.sh
 
 # node
 ./node-npm.sh

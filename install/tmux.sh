@@ -11,7 +11,7 @@ fi
 if [[ $OS_TYPE == "OSX" ]]; then
   brew install tmux
 else
-  sudo apt-get install tmux
+  sudo apt-get -y install tmux
 fi
 
 
