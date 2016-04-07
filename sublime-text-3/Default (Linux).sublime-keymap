@@ -17,9 +17,8 @@
   { "keys": ["super+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
   { "keys": ["alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
-  { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-  { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-  { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+  { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
   { "keys": ["alt+/"], "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["alt+shift+/"], "command": "toggle_comment", "args": { "block": true } },
@@ -75,9 +74,10 @@
   },
 
   // Normal
+  // =====================
   { "keys": ["alt+b"], "command": "build" },
   { "keys": ["alt+'"], "command": "change_quotes" },
-  { "keys": ["super+s"], "command": "save" },
+  { "keys": ["ctrl+s"], "command": "save" },
   { "keys": ["alt+w"], "command": "close" },
   { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
@@ -91,15 +91,17 @@
   { "keys": ["ctrl+w"], "command": "focus_neighboring_group" },
   { "keys": ["ctrl+shift+j"], "command": "select_lines", "args": {"forward": true} },
   { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": false} },
-  { "keys": ["ctrl+p, ctrl+c"], "command": "copy_path"},
-  { "keys": ["ctrl+p, ctrl+p"], "command": "copy_filepath_with_line_numbers"},
+  { "keys": ["ctrl+q", "c"], "command": "copy_path"},
+  { "keys": ["ctrl+q", "p"], "command": "copy_filepath_with_line_numbers"},
   { "keys": ["alt+ctrl+m"], "command": "back_to_definition"},
   { "keys": ["super+space"], "command": "auto_complete" },
 
   // CTags bindings
+  // =====================
   { "command": "navigate_to_definition", "keys": ["alt+o"] },
 
   // FileBrowser
+  // =====================
   {
     "keys": ["ctrl+o"],
     "command": "dired",
@@ -112,6 +114,7 @@
   },
 
   // Markdown Preview
+  // =====================
   {
     "keys": ["ctrl+m"],
     "command": "markdown_preview",
@@ -122,10 +125,12 @@
   },
 
   // Keybindings
+  // =====================
   { "keys": ["ctrl+?"], "command": "cheat_sheet" },
   { "keys": ["ctrl+/"], "command": "find_keymap" },
 
   // Github Tools
+  // =====================
   { "keys": ["ctrl+g", "g"], "command": "public_gist_from_selection" },
   { "keys": ["ctrl+g", "p"], "command": "private_gist_from_selection" },
   { "keys": ["ctrl+g", "o"], "command": "open_gist_in_editor" },
@@ -134,47 +139,6 @@
   { "keys": ["ctrl+g", "c"], "command": "copy_remote_url" },
   { "keys": ["ctrl+g", "b"], "command": "blame" },
   { "keys": ["ctrl+g", "h"], "command": "history" },
-
-  // Shell commands
-  { "keys": ["ctrl+s", "c"], "command": "shell_command" },
-  {
-    "keys": ["c"],
-    "command": "shell_command_refresh",
-    "command_prefix": "source $HOME/.bashrc",
-    "context": [{ "key": "setting.ShellCommand" }]
-  },
-  {
-    "keys": ["ctrl+s", "r"],
-    "command": "shell_command",
-    "args": {
-      "command_prefix": "source $HOME/.bashrc && rvm-auto-ruby -S",
-      "prompt": "Shell Command"
-    }
-  },
-  { // Process list
-    "keys": ["ctrl+s", "p"],
-    "command": "shell_command",
-    "args": {
-      "command": "ps xcro user,pid,%cpu,cputime,%mem,command | head -n 28",
-    }
-  },
-  { // mysql process list
-    "keys": ["ctrl+s", "s"],
-    "command": "shell_command",
-    "args": {
-      "command": "ps aux | grep mysql",
-    }
-  },
-  { // Send SIGKILL to a process number selected
-    // in a Shell Command Window
-    "keys": ["K"],
-    "command": "shell_command",
-    "args": {
-      "command": "kill -9",
-      "region": "arg"
-    },
-    "context": [{ "key": "setting.ShellCommand" }]
-  },
 
   // SublimeREPL bindings:
   // =====================
@@ -260,3 +224,4 @@
   // ===========================
   { "keys": ["alt+shift+g"], "command": "git_blame" },
 ]
+

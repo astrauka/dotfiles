@@ -14,6 +14,11 @@ else
   sudo apt-get -y install tmux
 fi
 
+TMUX_BASH_SOURCE="https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.bash"
+TMUX_BASH_DIR="$HOME/.bin"
+mkdir -p "$TMUX_BASH_DIR"
+
+$CURL $TMUX_BASH_SOURCE -o "$TMUX_BASH_DIR/tmuxinator.bash"
 
 ln -sf "$DOT_HOME/tmux/conf" ~/.tmux.conf
 
