@@ -1,10 +1,8 @@
 [
+  // Normal
+  // =====================
   { "keys": ["alt+ctrl+n"], "command": "new_file" },
   { "keys": ["alt+w"], "command": "close" },
-  { "keys": ["alt+k", "alt+b"], "command": "toggle_side_bar" },
-
-  { "keys": ["alt+]"], "command": "indent" },
-  { "keys": ["alt+["], "command": "unindent" },
 
   { "keys": ["alt+d"], "command": "find_under_expand" },
   { "keys": ["alt+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
@@ -20,61 +18,17 @@
   { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
-  { "keys": ["alt+/"], "command": "toggle_comment", "args": { "block": false } },
-  { "keys": ["alt+shift+/"], "command": "toggle_comment", "args": { "block": true } },
-
   { "keys": ["alt+j"], "command": "join_lines" },
   { "keys": ["alt+shift+d"], "command": "duplicate_line" },
 
   { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
   { "keys": ["alt+f9"], "command": "sort_lines", "args": {"case_sensitive": true} },
 
-  { "keys": ["shift+super+1"], "command": "set_layout", "args": { "cells": [[0, 0, 1, 1]], "cols": [0.0, 1.0], "rows": [0.0, 1.0] } },
   { "keys": ["alt+k", "alt+u"], "command": "upper_case" },
   { "keys": ["alt+k", "alt+l"], "command": "lower_case" },
 
-  { "keys": ["alt+shift+["], "command": "fold" },
-  { "keys": ["alt+shift+]"], "command": "unfold" },
   { "keys": ["ctrl+="], "command": "increase_font_size" },
 
-  // Find panel key bindings
-  { "keys": ["enter"], "command": "find_next", "context":
-    [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["shift+enter"], "command": "find_prev", "context":
-    [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["super+enter"], "command": "find_all", "args": {"close_panel": true},
-     "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-  },
-
-  // Replace panel key bindings
-  { "keys": ["enter"], "command": "find_next", "context":
-    [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["shift+enter"], "command": "find_prev", "context":
-    [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["super+enter"], "command": "find_all", "args": {"close_panel": true},
-    "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["alt+super+enter"], "command": "replace_all", "args": {"close_panel": true},
-     "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-  },
-
-  // Incremental find panel key bindings
-  { "keys": ["enter"], "command": "hide_panel", "context":
-    [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["shift+enter"], "command": "find_prev", "context":
-    [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-  },
-  { "keys": ["super+enter"], "command": "find_all", "args": {"close_panel": true},
-    "context": [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-  },
-
-  // Normal
-  // =====================
   { "keys": ["alt+b"], "command": "build" },
   { "keys": ["alt+'"], "command": "change_quotes" },
   { "keys": ["ctrl+s"], "command": "save" },
@@ -83,12 +37,8 @@
 
   { "keys": ["enter"], "command": "next_result", "context": [
     {"key": "selector", "operator": "equal", "operand": "text.find-in-files" }]},
-  { "keys": ["ctrl+super+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
-  { "keys": ["ctrl+super+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
   { "keys": ["super+o"], "command": "goto_definition" },
 
-  { "keys": ["ctrl+v"], "command": "unbound" },
-  { "keys": ["ctrl+w"], "command": "focus_neighboring_group" },
   { "keys": ["ctrl+shift+j"], "command": "select_lines", "args": {"forward": true} },
   { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["ctrl+q", "c"], "command": "copy_path"},
@@ -96,9 +46,11 @@
   { "keys": ["alt+ctrl+m"], "command": "back_to_definition"},
   { "keys": ["super+space"], "command": "auto_complete" },
 
+  { "keys": ["ctrl+w"], "command": "focus_neighboring_group" },
+
   // CTags bindings
   // =====================
-  { "command": "navigate_to_definition", "keys": ["alt+o"] },
+  { "keys": ["alt+o"], "command": "navigate_to_definition" },
 
   // FileBrowser
   // =====================
@@ -126,8 +78,8 @@
 
   // Keybindings
   // =====================
-  { "keys": ["ctrl+?"], "command": "cheat_sheet" },
-  { "keys": ["ctrl+/"], "command": "find_keymap" },
+  { "keys": ["alt+\\"], "command": "cheat_sheet" },
+  { "keys": ["alt+/"], "command": "find_keymap" },
 
   // Github Tools
   // =====================
@@ -176,52 +128,14 @@
   { "keys": ["ctrl+c"], "command": "copy" },
   { "keys": ["ctrl+v"], "command": "paste" },
 
-  // SublimeRSpec
-  // ===========================
-  // test current line
-  {
-    "keys": ["alt+shift+r"],
-    "command": "test_current_line",
-    "context": [
-      {
-        "key": "selector",
-        "operator": "equal",
-        "operand": "source.ruby, source.rspec"
-      }
-    ]
-  },
-  // test current file
-  {
-    "keys": ["alt+shift+t"],
-    "command": "test_current_file",
-    "context": [
-      {
-        "key": "selector",
-        "operator": "equal",
-        "operand": "source.ruby, source.rspec"
-      }
-    ]
-  },
-  // run last spec
-  { "keys": ["alt+shift+e"], "command": "run_last_spec" },
-  // display output panel
-  { "keys": ["alt+shift+x"], "command": "display_output_panel" },
-  // switch between code and test
-  {
-    "keys": ["alt+period"],
-    "command": "switch_between_code_and_test",
-    "context": [
-      {
-        "key": "selector", "operator": "equal",
-        "operand": "source.ruby, source.rspec"
-      }
-    ]
-  },
-  // create spec file
-  { "keys": ["alt+shift+c"], "command": "create_spec_file" },
-
   // Github
   // ===========================
   { "keys": ["alt+shift+g"], "command": "git_blame" },
-]
 
+  // Focus group
+  // ===========================
+  { "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
+  { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
+  { "keys": ["super+3"], "command": "focus_group", "args": { "group": 2 } },
+  { "keys": ["super+4"], "command": "focus_group", "args": { "group": 3 } },
+]
