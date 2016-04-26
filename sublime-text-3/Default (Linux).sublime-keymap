@@ -16,7 +16,7 @@
   { "keys": ["alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
   { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-  { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+  { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
   { "keys": ["alt+j"], "command": "join_lines" },
   { "keys": ["alt+shift+d"], "command": "duplicate_line" },
@@ -94,7 +94,7 @@
 
   // SublimeREPL bindings:
   // =====================
-  { "keys": ["alt+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},
+  // { "keys": ["alt+enter"], "command": "repl_transfer_current", "args": {"scope": "block"}},
   { "keys": ["alt+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
   { "keys": ["super+alt+r"], "command": "refresh_namespaces_in_repl"},
   { "keys": ["super+alt+i"], "command": "switch_to_current_namespace_in_repl"},
