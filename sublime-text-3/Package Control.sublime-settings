@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Alignment",
 		"All Autocomplete",
 		"Babel",
 		"BracketHighlighter",
@@ -30,7 +31,6 @@
 		"Markdown Preview",
 		"Material Theme",
 		"Monokai Extended",
-		"Neutron",
 		"Package Control",
 		"PackageResourceViewer",
 		"paredit",
@@ -39,15 +39,14 @@
 		"ShellCommand",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-jshint",
-		"SublimeLinter-jsxhint",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeREPL",
 		"Syntax Highlighting for Sass",
 		"Table Cleaner",
 		"TestRSpec",
-		"Theme - Soda",
 		"YAML Nav"
 	]
 }

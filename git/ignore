@@ -6,5 +6,5 @@ tags
 *#
 .ensime_cache
 .env.local
-/client
+node_modules
 app/assets/webpack/
