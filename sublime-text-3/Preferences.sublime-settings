@@ -20,6 +20,7 @@
 	],
 	"folder_exclude_patterns":
 	[
+		"dist",
 		"node_modules",
 		".sass-cache",
 		".git",
@@ -44,6 +45,7 @@
 		"Monokai Extended",
 		"paredit",
 		"ShellCommand",
+		"SublimeLinter-contrib-scss-lint",
 		"YAML Nav"
 	],
 	"indent_guide_options":
