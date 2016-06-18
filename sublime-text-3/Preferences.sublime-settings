@@ -2,7 +2,9 @@
 	"added_words":
 	[
 		"performant",
-		"favourites"
+		"favourites",
+		"plugin",
+		"plugins"
 	],
 	"animation_enabled": false,
 	"auto_complete_commit_on_tab": true,
