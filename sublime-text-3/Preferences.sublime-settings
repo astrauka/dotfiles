@@ -40,7 +40,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Cucumber",
 		"Enhanced Clojure",
 		"Ensime",
 		"lispindent",
