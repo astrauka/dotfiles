@@ -2,6 +2,7 @@
 	"dired_jump_points":
 	{
 		"icons": "/home/astrauka/dev/vinted/core/app/assets/images/icons/",
+		"oozie_jobs": "/home/astrauka/dev/vinted/warehouse-jobs/oozie/jobs/",
 		"spec_thread_configs": "/home/astrauka/dev/vinted/core/spec/domain/member/msg_threads/configurations/",
 		"thread_actions": "/home/astrauka/dev/vinted/core/app/views/member/msg_threads/thread/actions/",
 		"thread_configs": "/home/astrauka/dev/vinted/core/app/domain/member/msg_threads/configurations/"
@@ -11,5 +12,10 @@
 	],
 	"dired_to_move":
 	[
+	],
+	"dired_show_hidden_files": false,
+	"dired_hidden_files_patterns": [
+		"__pycache__",
+		"*.pyc"
 	]
 }
