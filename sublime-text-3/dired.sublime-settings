@@ -1,4 +1,9 @@
 {
+	"dired_hidden_files_patterns":
+	[
+		"__pycache__",
+		"*.pyc"
+	],
 	"dired_jump_points":
 	{
 		"icons": "/home/astrauka/dev/vinted/core/app/assets/images/icons/",
@@ -7,15 +12,11 @@
 		"thread_actions": "/home/astrauka/dev/vinted/core/app/views/member/msg_threads/thread/actions/",
 		"thread_configs": "/home/astrauka/dev/vinted/core/app/domain/member/msg_threads/configurations/"
 	},
+	"dired_show_hidden_files": false,
 	"dired_to_copy":
 	[
 	],
 	"dired_to_move":
 	[
-	],
-	"dired_show_hidden_files": false,
-	"dired_hidden_files_patterns": [
-		"__pycache__",
-		"*.pyc"
 	]
 }

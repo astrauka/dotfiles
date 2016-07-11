@@ -18,7 +18,7 @@
 	[
 		".zeus.sock",
 		".tags",
-		".tags_sorted_by_file",
+		".tags_sorted_by_file"
 	],
 	"folder_exclude_patterns":
 	[
@@ -70,6 +70,11 @@
 	"show_full_path": true,
 	"spell_check": true,
 	"tab_size": 2,
+	"tern_command":
+	[
+		"/home/astrauka/.nvm/versions/node/v5.10.1/bin/node",
+		"/home/astrauka/.nvm/versions/node/v5.10.1/bin/tern"
+	],
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
