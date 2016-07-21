@@ -57,6 +57,7 @@ alias gcp='git cherry-pick'
 alias gcs='git commit -S'
 
 alias gd='git diff'
+alias gdm='git diff master'
 alias gdca='git diff --cached'
 alias gdct='git describe --tags `git rev-list --tags --max-count=1`'
 alias gdt='git diff-tree --no-commit-id --name-only -r'
@@ -86,6 +87,7 @@ alias glol="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 alias glola="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all"
 alias glog='git log --oneline --decorate --graph'
 alias gloga='git log --oneline --decorate --graph --all'
+alias glu='git pull upstream master'
 
 alias gm='git merge'
 alias gmom='git merge origin/master'
@@ -106,6 +108,7 @@ alias grba='git rebase --abort'
 alias grbc='git rebase --continue'
 alias grbi='git rebase -i'
 alias grbm='git rebase master'
+alias grbu='git rebase upstream/master'
 alias grbs='git rebase --skip'
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
