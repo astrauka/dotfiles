@@ -1,0 +1,2 @@
+export PATH="$HOME/.cargo/bin:${PATH}"
+export RUST_SRC_PATH="~/dev/rust/rustc-1.10.0/src"

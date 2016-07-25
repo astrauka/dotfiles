@@ -36,6 +36,9 @@ chmod +x *
 # clojure
 ./lein.sh
 ./clj.sh
+
+# rust
+./rust.sh
 ```
 
 ### Bash profile
@@ -58,4 +61,5 @@ source "$HOME/dotfiles/bashrc/sources/xclip"
 source "$HOME/dotfiles/bashrc/sources/xscast"
 source "$HOME/dotfiles/bashrc/sources/lein"
 source "$HOME/dotfiles/bashrc/sources/emacs"
+source "$HOME/dotfiles/bashrc/sources/rust"
 ```

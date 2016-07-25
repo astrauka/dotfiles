@@ -1,0 +1,6 @@
+{
+  "rustc_binary_path": "/usr/local/bin/rustc",
+  "racer_binary_path": "/home/astrauka/.cargo/bin/racer",
+  "rustfmt_binary_path": "/home/astrauka/.cargo/bin/rustfmt",
+  "rust_src_path": "/home/astrauka/dev/rust/rustc-1.10.0/src",
+}
