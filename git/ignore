@@ -6,5 +6,6 @@ tags
 *#
 .ensime_cache
 .env.local
+.tern-*
 node_modules
 app/assets/webpack/
