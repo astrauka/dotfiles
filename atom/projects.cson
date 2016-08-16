@@ -1,0 +1,20 @@
+analytics:
+  title: "Analytics"
+  paths: [
+    "/home/astrauka/dev/vinted/analytics"
+  ]
+core:
+  title: "Core"
+  paths: [
+    "/home/astrauka/dev/vinted/core"
+  ]
+chef:
+  title: "Chef"
+  paths: [
+    "/home/astrauka/dev/vinted/chef"
+  ]
+dotfiles:
+  title: "Dotfiles"
+  paths: [
+    "/home/astrauka/dotfiles"
+  ]

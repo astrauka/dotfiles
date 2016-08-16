@@ -1,0 +1,83 @@
+"*":
+  "advanced-open-file":
+    fuzzyMatch: true
+  core:
+    closeEmptyWindows: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+      "vendor"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    tabType: "soft"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-debugger-native": {}
+    "nuclide-distraction-free-mode":
+      hideStatusBar: true
+      hideToolBar: true
+    "nuclide-file-tree":
+      allowKeyboardPrefixNavigation: false
+      revealFileOnSwitch: true
+    "nuclide-home":
+      showHome: false
+    use:
+      "nuclide-blame-provider-hg": false
+      "nuclide-debugger-native": false
+      "nuclide-debugger-php": false
+      "nuclide-file-tree": false
+      "nuclide-hack": false
+      "nuclide-hack-symbol-provider": false
+      "nuclide-hg-conflict-resolver": false
+      "nuclide-hg-repository": false
+      "nuclide-hhvm-toolbar": false
+      "nuclide-ios-simulator-logs": false
+      "nuclide-language-hack": false
+      "nuclide-side-bar": false
+      "nuclide-source-control-side-bar": false
+  "rspec-tree-runner":
+    rspecPathCommand: "bundle exec spring rspec"
+  "ruby-test":
+    rspecAllCommand: "bundle exec spring rspec --tty spec"
+    rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+  "tool-bar":
+    visible: false
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+    focusOnReveal: false
+  welcome:
+    showOnStartup: false
+".ansi.text":
+  editor:
+    showIndentGuide: true
+"autocomplete-plus":
+  suppressActivationForEditorClasses: [
+    "vim-mode-plus.normal-mode"
+    "vim-mode-plus.visual-mode"
+    "vim-mode-plus.operator-pending-mode"
+    "vim-mode-plus.insert-mode.replace"
+  ]

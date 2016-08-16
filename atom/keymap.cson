@@ -1,0 +1,23 @@
+'body':
+  'alt-w': 'core:close'
+  'ctrl-w': 'unset!'
+  'ctrl-w ctrl-w': 'window:focus-next-pane'
+
+'.platform-win32, .platform-linux':
+  'cmd-f': 'find-and-replace:toggle'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-shift-j': 'editor:add-selection-below'
+  'ctrl-shift-k': 'editor:add-selection-above'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'cmd-d': 'find-and-replace:select-next'
+
+'.platform-linux atom-workspace':
+  'cmd-shift-x': 'ruby-test:toggle'
+  'cmd-shift-C': 'ruby-test:cancel'
+  'cmd-shift-E': 'ruby-test:test-previous'
+  'cmd-shift-R': 'ruby-test:test-single'
+  'cmd-shift-T': 'ruby-test:test-file'
+  'cmd-shift-X': 'ruby-test:toggle'
+  'cmd-shift-Y': 'ruby-test:test-all'
