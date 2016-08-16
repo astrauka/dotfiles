@@ -6,6 +6,7 @@
     customFileTypes:
       "source.ini": [
         ".buckconfig"
+        ".flowconfig"
       ]
       "source.json": [
         ".arcconfig"
@@ -14,6 +15,10 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "tree-view"
+    ]
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -32,22 +37,33 @@
     tabType: "soft"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
+  linter:
+    errorPanelHeight: 98
+    lintOnFly: false
+  "linter-rubocop":
+    command: "/home/astrauka/.rbenv/shims/rubocop"
+  "linter-ruby":
+    rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
   nuclide:
     installRecommendedPackages: true
     "nuclide-debugger-native": {}
+    "nuclide-diagnostics-store": {}
     "nuclide-distraction-free-mode":
       hideStatusBar: true
       hideToolBar: true
     "nuclide-file-tree":
-      allowKeyboardPrefixNavigation: false
+      hideIgnoredNames: false
       revealFileOnSwitch: true
+    "nuclide-flow":
+      canUseFlowBin: true
     "nuclide-home":
       showHome: false
+    "nuclide-react-native":
+      pathToNode: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/node"
     use:
       "nuclide-blame-provider-hg": false
       "nuclide-debugger-native": false
       "nuclide-debugger-php": false
-      "nuclide-file-tree": false
       "nuclide-hack": false
       "nuclide-hack-symbol-provider": false
       "nuclide-hg-conflict-resolver": false
@@ -55,7 +71,6 @@
       "nuclide-hhvm-toolbar": false
       "nuclide-ios-simulator-logs": false
       "nuclide-language-hack": false
-      "nuclide-side-bar": false
       "nuclide-source-control-side-bar": false
   "rspec-tree-runner":
     rspecPathCommand: "bundle exec spring rspec"
@@ -69,6 +84,7 @@
     alwaysOpenExisting: true
     autoReveal: true
     focusOnReveal: false
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".ansi.text":

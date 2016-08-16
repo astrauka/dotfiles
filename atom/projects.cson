@@ -18,3 +18,8 @@ dotfiles:
   paths: [
     "/home/astrauka/dotfiles"
   ]
+reactwebpackrailstutorial:
+  title: "React Webpack Rails Tutorial"
+  paths: [
+    "/home/astrauka/dev/vinted/tmp/react-webpack-rails-tutorial"
+  ]

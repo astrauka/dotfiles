@@ -2,6 +2,7 @@
   'alt-w': 'core:close'
   'ctrl-w': 'unset!'
   'ctrl-w ctrl-w': 'window:focus-next-pane'
+  'ctrl-tab ^ctrl': 'unset!'
 
 '.platform-win32, .platform-linux':
   'cmd-f': 'find-and-replace:toggle'
@@ -21,3 +22,12 @@
   'cmd-shift-T': 'ruby-test:test-file'
   'cmd-shift-X': 'ruby-test:toggle'
   'cmd-shift-Y': 'ruby-test:test-all'
+
+'atom-workspace':
+  'alt-o': 'unset!'
+
+'atom-text-editor':
+  'alt-o': 'symbols-view:go-to-declaration'
+
+'atom-text-editor.vim-mode-plus':
+  'ctrl-c': 'unset!'
