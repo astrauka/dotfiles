@@ -34,7 +34,8 @@
 		"target",
 		"out",
 		".ensime_cache",
-		"webpack"
+		"webpack",
+		"public/assets"
 	],
 	"font_size": 10,
 	"highlight_line": true,

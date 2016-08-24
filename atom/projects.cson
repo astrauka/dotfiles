@@ -23,3 +23,8 @@ reactwebpackrailstutorial:
   paths: [
     "/home/astrauka/dev/vinted/tmp/react-webpack-rails-tutorial"
   ]
+rollout:
+  title: "Rollout"
+  paths: [
+    "/home/astrauka/dev/vinted/rollout"
+  ]
