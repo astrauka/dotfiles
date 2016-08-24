@@ -6,6 +6,8 @@
 
 '.platform-win32, .platform-linux':
   'cmd-f': 'find-and-replace:toggle'
+  'ctrl-o': 'tree-view:reveal-active-file'
+  'cmd-shift-f': 'project-find:show'
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-shift-j': 'editor:add-selection-below'
@@ -15,13 +17,12 @@
   'cmd-d': 'find-and-replace:select-next'
 
 '.platform-linux atom-workspace':
+  'cmd-shift-c': 'ruby-test:cancel'
+  'cmd-shift-e': 'ruby-test:test-previous'
+  'cmd-shift-r': 'ruby-test:test-single'
+  'cmd-shift-t': 'ruby-test:test-file'
   'cmd-shift-x': 'ruby-test:toggle'
-  'cmd-shift-C': 'ruby-test:cancel'
-  'cmd-shift-E': 'ruby-test:test-previous'
-  'cmd-shift-R': 'ruby-test:test-single'
-  'cmd-shift-T': 'ruby-test:test-file'
-  'cmd-shift-X': 'ruby-test:toggle'
-  'cmd-shift-Y': 'ruby-test:test-all'
+  'cmd-shift-y': 'ruby-test:test-all'
 
 'atom-workspace':
   'alt-o': 'unset!'

@@ -28,3 +28,8 @@ rollout:
   paths: [
     "/home/astrauka/dev/vinted/rollout"
   ]
+warehousejobs:
+  title: "Warehouse Jobs"
+  paths: [
+    "/home/astrauka/dev/vinted/warehouse-jobs"
+  ]

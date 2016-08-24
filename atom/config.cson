@@ -15,7 +15,6 @@
       "source.python": [
         "BUCK"
       ]
-    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -25,6 +24,7 @@
       "Thumbs.db"
       "node_modules"
       "vendor"
+      ".tags*"
     ]
     themes: [
       "atom-dark-ui"
@@ -33,6 +33,8 @@
   editor:
     preferredLineLength: 99
     tabType: "soft"
+  "find-and-replace":
+    closeFindPanelAfterSearch: true
   linter:
     errorPanelHeight: 98
     lintOnFly: false
@@ -104,6 +106,8 @@
       "nuclide-working-sets": false
       "nuclide-workspace-view-locations": false
       "nuclide-workspace-views": false
+  "project-manager":
+    closeCurrent: true
   "rspec-tree-runner":
     rspecPathCommand: "bundle exec spring rspec"
   "ruby-test":
@@ -114,6 +118,7 @@
     visible: false
   "tree-view":
     alwaysOpenExisting: true
+    focusOnReveal: false
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
