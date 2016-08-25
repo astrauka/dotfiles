@@ -2,6 +2,7 @@
   'atom-beautify'
   'atom-material-syntax'
   'autocomplete-modules'
+  'change-case'
   'color-picker'
   'file-icons'
   'git-plus'

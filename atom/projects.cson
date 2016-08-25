@@ -33,3 +33,19 @@ warehousejobs:
   paths: [
     "/home/astrauka/dev/vinted/warehouse-jobs"
   ]
+httprelay:
+  title: "Http Relay"
+  paths: [
+    "/home/astrauka/dev/vinted/http-relay"
+  ]
+eventtracker:
+  title: "Event Tracker"
+  paths: [
+    "/home/astrauka/dev/vinted/event-tracker"
+  ]
+devbook:
+  title: "Devbook"
+  paths: [
+    "/home/astrauka/dev/vinted/devbook"
+    "/home/astrauka/dev/vinted/devbook/backend/core/how-to"
+  ]

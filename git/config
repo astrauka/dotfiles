@@ -26,3 +26,5 @@
     excludesfile = ~/.gitignore
 [fetch]
 	prune = true
+[merge]
+	tool = meld

@@ -38,6 +38,7 @@
   linter:
     errorPanelHeight: 98
     lintOnFly: false
+    showErrorPanel: false
   "linter-rubocop":
     command: "/home/astrauka/.rbenv/shims/rubocop"
   "linter-ruby":
