@@ -35,6 +35,9 @@ bind-key b split-window
 
 set -g status-interval 1
 
+# increase scrollback buffer size
+set-option -g history-limit 50000
+
 # Start numbering at 1
 set -g base-index 1
 

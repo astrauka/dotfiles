@@ -49,3 +49,8 @@ devbook:
     "/home/astrauka/dev/vinted/devbook"
     "/home/astrauka/dev/vinted/devbook/backend/core/how-to"
   ]
+vintedgithubio:
+  title: "Vinted Github Io"
+  paths: [
+    "/home/astrauka/dev/vinted/vinted.github.io"
+  ]
