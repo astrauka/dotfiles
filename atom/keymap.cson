@@ -17,6 +17,7 @@
   'cmd-d': 'find-and-replace:select-next'
 
 '.platform-linux atom-workspace':
+  'ctrl-shift-Y': 'copy-path:copy-line-reference'
   'cmd-shift-c': 'ruby-test:cancel'
   'cmd-shift-e': 'ruby-test:test-previous'
   'cmd-shift-r': 'ruby-test:test-single'

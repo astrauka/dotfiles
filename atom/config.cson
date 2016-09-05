@@ -39,6 +39,9 @@
     errorPanelHeight: 98
     lintOnFly: false
     showErrorPanel: false
+  "linter-erb":
+    erbExecutablePath: "/home/astrauka/.rbenv/shims/erb"
+    rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
   "linter-rubocop":
     command: "/home/astrauka/.rbenv/shims/rubocop"
   "linter-ruby":
