@@ -147,21 +147,6 @@
 ".shell.source":
   editor:
     preferredLineLength: 99
-"atom-shell-commands":
-  commands: [
-    {
-      name: "ripper-tags"
-      command: "cmd"
-      arguments: [
-        "ripper-tags"
-        "-R"
-        "."
-      ]
-      options:
-        cwd: "{ProjectDir}"
-        keymap: "ctrl-t ctrl-t"
-    }
-  ]
 "autocomplete-plus":
   suppressActivationForEditorClasses: [
     "vim-mode-plus.normal-mode"
