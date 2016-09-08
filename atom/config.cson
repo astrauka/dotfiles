@@ -37,6 +37,8 @@
     tabType: "soft"
   "env-from-shell":
     autoRun: true
+  "exception-reporting":
+    userId: "7fdd3e3a-5462-0605-ac3d-e233b2493740"
   "find-and-replace":
     closeFindPanelAfterSearch: true
   linter:
