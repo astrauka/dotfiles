@@ -4,6 +4,12 @@
   'ctrl-w ctrl-w': 'window:focus-next-pane'
   'ctrl-tab ^ctrl': 'unset!'
 
+'atom-workspace':
+  'alt-o': 'unset!'
+
+'.platform-linux atom-text-editor':
+  'alt-o': 'symbols-view:go-to-declaration'
+
 '.platform-win32, .platform-linux':
   'cmd-f': 'find-and-replace:toggle'
   'ctrl-o': 'tree-view:reveal-active-file'
@@ -17,19 +23,21 @@
   'cmd-d': 'find-and-replace:select-next'
 
 '.platform-linux atom-workspace':
-  'ctrl-shift-Y': 'copy-path:copy-line-reference'
+  'ctrl-shift-y': 'unset!'
+  'ctrl-shift-c': 'unset!'
+  'ctrl-shift-e': 'unset!'
+  'ctrl-shift-r': 'unset!'
+  'ctrl-shift-t': 'unset!'
+  'ctrl-shift-x': 'unset!'
   'cmd-shift-c': 'ruby-test:cancel'
   'cmd-shift-e': 'ruby-test:test-previous'
   'cmd-shift-r': 'ruby-test:test-single'
   'cmd-shift-t': 'ruby-test:test-file'
   'cmd-shift-x': 'ruby-test:toggle'
   'cmd-shift-y': 'ruby-test:test-all'
-
-'atom-workspace':
-  'alt-o': 'unset!'
-
-'atom-text-editor':
-  'alt-o': 'symbols-view:go-to-declaration'
+  'ctrl-shift-Y': 'copy-path:copy-line-reference'
 
 'atom-text-editor.vim-mode-plus':
   'ctrl-c': 'unset!'
+  'ctrl-r': 'unset!'
+  'ctrl-t': 'unset!'

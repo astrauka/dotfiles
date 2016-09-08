@@ -1,6 +1,8 @@
 "*":
   "advanced-open-file":
     fuzzyMatch: true
+  "autocomplete-plus":
+    minimumWordLength: 2
   core:
     closeEmptyWindows: false
     customFileTypes:
@@ -33,6 +35,8 @@
   editor:
     preferredLineLength: 99
     tabType: "soft"
+  "env-from-shell":
+    autoRun: true
   "find-and-replace":
     closeFindPanelAfterSearch: true
   linter:
@@ -123,7 +127,6 @@
   "tree-view":
     alwaysOpenExisting: true
     focusOnReveal: false
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".ansi.text":
@@ -136,6 +139,27 @@
 ".hg-commit.text":
   editor:
     preferredLineLength: 99
+".shell-session.text":
+  editor:
+    preferredLineLength: 99
+".shell.source":
+  editor:
+    preferredLineLength: 99
+"atom-shell-commands":
+  commands: [
+    {
+      name: "ripper-tags"
+      command: "cmd"
+      arguments: [
+        "ripper-tags"
+        "-R"
+        "."
+      ]
+      options:
+        cwd: "{ProjectDir}"
+        keymap: "ctrl-t ctrl-t"
+    }
+  ]
 "autocomplete-plus":
   suppressActivationForEditorClasses: [
     "vim-mode-plus.normal-mode"

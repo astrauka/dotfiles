@@ -7,6 +7,7 @@ core:
   title: "Core"
   paths: [
     "/home/astrauka/dev/vinted/core"
+    "/home/astrauka/dev/vinted/core/client/node_modules"
   ]
 chef:
   title: "Chef"
@@ -53,4 +54,9 @@ vintedgithubio:
   title: "Vinted Github Io"
   paths: [
     "/home/astrauka/dev/vinted/vinted.github.io"
+  ]
+reduxform:
+  title: "Redux Form"
+  paths: [
+    "/home/astrauka/dev/vinted/tmp/redux-form"
   ]
