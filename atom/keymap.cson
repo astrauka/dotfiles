@@ -6,13 +6,18 @@
 
 'atom-workspace':
   'alt-o': 'unset!'
+  'ctrl-r': 'unset!'
 
 '.platform-linux atom-text-editor':
   'alt-o': 'symbols-view:go-to-declaration'
 
+'.platform-linux atom-text-editor:not(.mini)':
+  'ctrl-o': 'goto-definition:go'
+  'ctrl-r': 'goto:file-symbol'
+
 '.platform-win32, .platform-linux':
   'cmd-f': 'find-and-replace:toggle'
-  'ctrl-o': 'tree-view:reveal-active-file'
+  'ctrl-]': 'tree-view:reveal-active-file'
   'cmd-shift-f': 'project-find:show'
 
 'atom-workspace atom-text-editor:not([mini])':
@@ -41,3 +46,4 @@
   'ctrl-c': 'unset!'
   'ctrl-r': 'unset!'
   'ctrl-t': 'unset!'
+  'ctrl-]': 'unset!'

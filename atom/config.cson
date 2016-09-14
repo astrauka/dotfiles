@@ -124,6 +124,7 @@
     rspecAllCommand: "bundle exec spring rspec --tty spec"
     rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
     rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+    specFramework: "rspec"
   "tool-bar":
     visible: false
   "tree-view":
@@ -131,6 +132,8 @@
     focusOnReveal: false
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
 ".ansi.text":
   editor:
     preferredLineLength: 99
