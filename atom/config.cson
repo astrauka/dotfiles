@@ -42,80 +42,22 @@
   "find-and-replace":
     closeFindPanelAfterSearch: true
   linter:
-    errorPanelHeight: 98
-    lintOnFly: false
-    showErrorPanel: false
+    errorPanelHeight: 10
+    showErrorTabFile: false
+    showErrorTabLine: true
+    showErrorTabProject: false
+    statusIconScope: "File"
   "linter-erb":
     erbExecutablePath: "/home/astrauka/.rbenv/shims/erb"
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+  "linter-flow":
+    executablePath: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/flow"
   "linter-rubocop":
     command: "/home/astrauka/.rbenv/shims/rubocop"
   "linter-ruby":
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
-  nuclide:
-    installRecommendedPackages: true
-    "nuclide-clang": {}
-    "nuclide-debugger-native": {}
-    "nuclide-diagnostics-store": {}
-    "nuclide-distraction-free-mode":
-      hideStatusBar: true
-      hideToolBar: true
-    "nuclide-file-tree":
-      hideIgnoredNames: false
-      revealFileOnSwitch: true
-    "nuclide-flow":
-      canUseFlowBin: true
-    "nuclide-home":
-      showHome: false
-    "nuclide-react-native":
-      pathToNode: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/node"
-    use:
-      "nuclide-blame": false
-      "nuclide-blame-provider-hg": false
-      "nuclide-bookshelf": false
-      "nuclide-buck": false
-      "nuclide-busy-signal": false
-      "nuclide-clang": false
-      "nuclide-clipboard-path": false
-      "nuclide-context-view": false
-      "nuclide-debugger-native": false
-      "nuclide-debugger-php": false
-      "nuclide-distraction-free-mode": false
-      "nuclide-file-tree": false
-      "nuclide-fuzzy-filename-provider": false
-      "nuclide-hack": false
-      "nuclide-hack-symbol-provider": false
-      "nuclide-health": false
-      "nuclide-hg-conflict-resolver": false
-      "nuclide-hg-repository": false
-      "nuclide-hhvm-toolbar": false
-      "nuclide-home": false
-      "nuclide-ios-simulator-logs": false
-      "nuclide-language-hack": false
-      "nuclide-move-item-to-available-pane": false
-      "nuclide-navigation-stack": false
-      "nuclide-objc": false
-      "nuclide-ocaml": false
-      "nuclide-open-filenames-provider": false
-      "nuclide-outline-view": false
-      "nuclide-python": false
-      "nuclide-quick-open": false
-      "nuclide-react-native": false
-      "nuclide-react-native-inspector": false
-      "nuclide-recent-files-provider": false
-      "nuclide-recent-files-service": false
-      "nuclide-related-files": false
-      "nuclide-remote-projects": false
-      "nuclide-side-bar": false
-      "nuclide-source-control-side-bar": false
-      "nuclide-swift": false
-      "nuclide-task-runner": false
-      "nuclide-test-runner": false
-      "nuclide-type-coverage": false
-      "nuclide-vcs-log": false
-      "nuclide-working-sets": false
-      "nuclide-workspace-view-locations": false
-      "nuclide-workspace-views": false
   "project-manager":
     closeCurrent: true
   "rspec-tree-runner":
