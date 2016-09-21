@@ -28,6 +28,9 @@
       "vendor"
       ".tags*"
     ]
+    packagesWithKeymapsDisabled: [
+      "graphviz-preview"
+    ]
     themes: [
       "atom-dark-ui"
       "atom-material-syntax"
@@ -40,7 +43,7 @@
   "exception-reporting":
     userId: "7fdd3e3a-5462-0605-ac3d-e233b2493740"
   "find-and-replace":
-    closeFindPanelAfterSearch: true
+    focusEditorAfterSearch: true
   linter:
     errorPanelHeight: 10
     showErrorTabFile: false
@@ -59,6 +62,7 @@
   "linter-ruby":
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
   "project-manager":
+    alwaysOpenInSameWindow: true
     closeCurrent: true
   "rspec-tree-runner":
     rspecPathCommand: "bundle exec spring rspec"
@@ -67,10 +71,14 @@
     rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
     rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
     specFramework: "rspec"
+  "save-autorun": {}
+  "save-commands":
+    suppressPanel: true
   "tool-bar":
     visible: false
   "tree-view":
     alwaysOpenExisting: true
+    autoReveal: true
     focusOnReveal: false
   welcome:
     showOnStartup: false

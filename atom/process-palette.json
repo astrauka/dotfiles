@@ -11,35 +11,6 @@
   "commands": [
     {
       "namespace": "Process Palette",
-      "action": "Stream Example",
-      "command": "ping localhost",
-      "arguments": [],
-      "cwd": null,
-      "inputDialogs": [],
-      "env": {},
-      "keystroke": null,
-      "stream": true,
-      "outputTarget": "panel",
-      "outputBufferSize": null,
-      "maxCompleted": 3,
-      "autoShowOutput": true,
-      "autoHideOutput": false,
-      "scrollLockEnabled": false,
-      "singular": false,
-      "promptToSave": true,
-      "saveOption": "none",
-      "patterns": [
-        "default"
-      ],
-      "successOutput": "{stdout}",
-      "errorOutput": "{stdout}\n{stderr}",
-      "fatalOutput": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
-      "successMessage": "Executed : {fullCommand}",
-      "errorMessage": "Executed : {fullCommand}\nReturned with code {exitStatus}\n{stderr}",
-      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}"
-    },
-    {
-      "namespace": "Process Palette",
       "action": "ripper-tags",
       "command": "~/.rbenv/shims/ripper-tags -f .tags -R .",
       "arguments": [],
@@ -64,6 +35,35 @@
       "errorOutput": "{stdout}\n{stderr}",
       "fatalOutput": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
       "successMessage": "Executed : {fullCommand}",
+      "errorMessage": "Executed : {fullCommand}\nReturned with code {exitStatus}\n{stderr}",
+      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}"
+    },
+    {
+      "namespace": "Process Palette",
+      "action": "graphviz dot build",
+      "command": "/usr/bin/dot -Tpng {filePath} -o {fileDirPath}/{fileName}.png",
+      "arguments": [],
+      "cwd": null,
+      "inputDialogs": [],
+      "env": {},
+      "keystroke": "alt-shift-d",
+      "stream": false,
+      "outputTarget": "panel",
+      "outputBufferSize": 80000,
+      "maxCompleted": 1,
+      "autoShowOutput": false,
+      "autoHideOutput": true,
+      "scrollLockEnabled": false,
+      "singular": true,
+      "promptToSave": false,
+      "saveOption": "referenced",
+      "patterns": [
+        "default"
+      ],
+      "successOutput": "{stdout}",
+      "errorOutput": "{stdout}\n{stderr}",
+      "fatalOutput": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
+      "successMessage": null,
       "errorMessage": "Executed : {fullCommand}\nReturned with code {exitStatus}\n{stderr}",
       "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}"
     }
