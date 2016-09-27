@@ -6,6 +6,8 @@
 
 'atom-workspace':
   'alt-o': 'unset!'
+  'alt-shift-e': 'atom-mocha:rerunTests'
+  'alt-shift-w': 'atom-mocha:toggle'
 
 '.platform-linux atom-text-editor':
   'alt-o': 'symbols-view:go-to-declaration'

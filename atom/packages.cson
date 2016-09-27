@@ -1,6 +1,7 @@
 'packages': [
   'atom-beautify'
   'atom-material-syntax'
+  'atom-mocha'
   'autocomplete-modules'
   'change-case'
   'color-picker'
@@ -27,6 +28,7 @@
   'linter-flow'
   'linter-rubocop'
   'linter-ruby'
+  'markdown-table-formatter'
   'merge-conflicts'
   'metrics'
   'n-panes'

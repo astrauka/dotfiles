@@ -1,6 +1,8 @@
 "*":
   "advanced-open-file":
     fuzzyMatch: true
+  "atom-mocha":
+    compiler: "ES5 (nothing)"
   "autocomplete-plus":
     minimumWordLength: 2
   core:
@@ -17,6 +19,7 @@
       "source.python": [
         "BUCK"
       ]
+    destroyEmptyPanes: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -30,6 +33,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "graphviz-preview"
+      "markdown-table-formatter"
     ]
     themes: [
       "atom-dark-ui"
@@ -42,10 +46,9 @@
     autoRun: true
   "exception-reporting":
     userId: "7fdd3e3a-5462-0605-ac3d-e233b2493740"
-  "find-and-replace":
-    focusEditorAfterSearch: true
+  "find-and-replace": {}
   linter:
-    errorPanelHeight: 10
+    errorPanelHeight: 22
     showErrorTabFile: false
     showErrorTabLine: true
     showErrorTabProject: false
@@ -55,12 +58,17 @@
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
   "linter-eslint":
     disableWhenNoEslintConfig: false
+    globalNodePath: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/node"
   "linter-flow":
     executablePath: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/flow"
   "linter-rubocop":
     command: "/home/astrauka/.rbenv/shims/rubocop"
   "linter-ruby":
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
+  "markdown-preview":
+    useGitHubStyle: true
+  "markdown-table-formatter":
+    autoSelectEntireDocument: false
   "project-manager":
     alwaysOpenInSameWindow: true
     closeCurrent: true
