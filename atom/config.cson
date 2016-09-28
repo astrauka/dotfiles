@@ -4,6 +4,7 @@
   "atom-mocha":
     compiler: "ES5 (nothing)"
   "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
     minimumWordLength: 2
   core:
     closeEmptyWindows: false
@@ -72,12 +73,13 @@
   "project-manager":
     alwaysOpenInSameWindow: true
     closeCurrent: true
-  "rspec-tree-runner":
-    rspecPathCommand: "bundle exec spring rspec"
   "ruby-test":
-    rspecAllCommand: "bundle exec spring rspec --tty spec"
-    rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
-    rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+    # rspecAllCommand: "bundle exec spring rspec --tty spec"
+    # rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
+    # rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+    rspecAllCommand: "(cd oozie && bundle exec rspec --tty spec)"
+    rspecFileCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path})"
+    rspecSingleCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path}:{line_number})"
     specFramework: "rspec"
   "save-autorun": {}
   "save-commands":
