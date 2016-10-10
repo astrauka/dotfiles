@@ -1,6 +1,14 @@
 "*":
   "advanced-open-file":
     fuzzyMatch: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "3d393c66-169c-40e9-9d4c-350454ca38cc"
+    xml:
+      beautify_on_save: true
+      default_beautifier: "JS Beautify"
+      indent_size: 2
+      wrap_attributes_indent_size: 2
   "atom-mocha":
     compiler: "ES5 (nothing)"
   "autocomplete-plus":
@@ -49,7 +57,7 @@
     userId: "7fdd3e3a-5462-0605-ac3d-e233b2493740"
   "find-and-replace": {}
   linter:
-    errorPanelHeight: 22
+    errorPanelHeight: 34
     showErrorTabFile: false
     showErrorTabLine: true
     showErrorTabProject: false
@@ -74,9 +82,6 @@
     alwaysOpenInSameWindow: true
     closeCurrent: true
   "ruby-test":
-    # rspecAllCommand: "bundle exec spring rspec --tty spec"
-    # rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
-    # rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
     rspecAllCommand: "(cd oozie && bundle exec rspec --tty spec)"
     rspecFileCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path})"
     rspecSingleCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path}:{line_number})"

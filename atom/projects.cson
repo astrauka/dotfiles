@@ -3,11 +3,23 @@ analytics:
   paths: [
     "/home/astrauka/dev/vinted/analytics"
   ]
+  settings:
+    "ruby-test":
+      rspecAllCommand: "bundle exec rspec --tty spec"
+      rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+      rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+      specFramework: "rspec"
 core:
   title: "Core"
   paths: [
     "/home/astrauka/dev/vinted/core"
   ]
+  settings:
+    "ruby-test":
+      rspecAllCommand: "bundle exec rspec --tty spec"
+      rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+      rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+      specFramework: "rspec"
 chef:
   title: "Chef"
   paths: [
@@ -33,6 +45,12 @@ warehousejobs:
   paths: [
     "/home/astrauka/dev/vinted/warehouse-jobs"
   ]
+  settings:
+    "ruby-test":
+      rspecAllCommand: "(cd oozie && bundle exec rspec --tty spec)"
+      rspecFileCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path})"
+      rspecSingleCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path}:{line_number})"
+      specFramework: "rspec"
 httprelay:
   title: "Http Relay"
   paths: [

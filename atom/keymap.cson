@@ -1,5 +1,6 @@
 'body':
   'alt-w': 'core:close'
+  'ctrl-escape': 'core:cancel'
   'ctrl-w': 'unset!'
   'ctrl-w ctrl-w': 'window:focus-next-pane'
   'ctrl-tab ^ctrl': 'unset!'
