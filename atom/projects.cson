@@ -1,78 +1,122 @@
-analytics:
-  title: "Analytics"
-  paths: [
-    "/home/astrauka/dev/vinted/analytics"
-  ]
-  settings:
-    "ruby-test":
-      rspecAllCommand: "bundle exec rspec --tty spec"
-      rspecFileCommand: "bundle exec rspec --tty {relative_path}"
-      rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
-      specFramework: "rspec"
-core:
-  title: "Core"
-  paths: [
-    "/home/astrauka/dev/vinted/core"
-  ]
-  settings:
-    "ruby-test":
-      rspecAllCommand: "bundle exec rspec --tty spec"
-      rspecFileCommand: "bundle exec rspec --tty {relative_path}"
-      rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
-      specFramework: "rspec"
-chef:
-  title: "Chef"
-  paths: [
-    "/home/astrauka/dev/vinted/chef"
-  ]
-dotfiles:
-  title: "Dotfiles"
-  paths: [
-    "/home/astrauka/dotfiles"
-  ]
-reactwebpackrailstutorial:
-  title: "React Webpack Rails Tutorial"
-  paths: [
-    "/home/astrauka/dev/vinted/tmp/react-webpack-rails-tutorial"
-  ]
-rollout:
-  title: "Rollout"
-  paths: [
-    "/home/astrauka/dev/vinted/rollout"
-  ]
-warehousejobs:
-  title: "Warehouse Jobs"
-  paths: [
-    "/home/astrauka/dev/vinted/warehouse-jobs"
-  ]
-  settings:
-    "ruby-test":
-      rspecAllCommand: "(cd oozie && bundle exec rspec --tty spec)"
-      rspecFileCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path})"
-      rspecSingleCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path}:{line_number})"
-      specFramework: "rspec"
-httprelay:
-  title: "Http Relay"
-  paths: [
-    "/home/astrauka/dev/vinted/http-relay"
-  ]
-eventtracker:
-  title: "Event Tracker"
-  paths: [
-    "/home/astrauka/dev/vinted/event-tracker"
-  ]
-devbook:
-  title: "Devbook"
-  paths: [
-    "/home/astrauka/dev/vinted/devbook"
-  ]
-vintedgithubio:
-  title: "Vinted Github Io"
-  paths: [
-    "/home/astrauka/dev/vinted/vinted.github.io"
-  ]
-reduxform:
-  title: "Redux Form"
-  paths: [
-    "/home/astrauka/dev/vinted/tmp/redux-form"
-  ]
+[
+  {
+    title: "Analytics"
+    paths: [
+      "/home/astrauka/dev/vinted/analytics"
+    ]
+    settings:
+      "ruby-test":
+        rspecAllCommand: "bundle exec rspec --tty spec"
+        rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+        rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+        specFramework: "rspec"
+  }
+  {
+    title: "Core"
+    paths: [
+      "/home/astrauka/dev/vinted/core"
+    ]
+    settings:
+      "ruby-test":
+        rspecAllCommand: "bundle exec spring rspec --tty spec"
+        rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
+        rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+        specFramework: "rspec"
+  }
+  {
+    title: "Chef"
+    paths: [
+      "/home/astrauka/dev/vinted/chef"
+    ]
+  }
+  {
+    title: "Dotfiles"
+    paths: [
+      "/home/astrauka/dotfiles"
+    ]
+  }
+  {
+    title: "React Webpack Rails Tutorial"
+    paths: [
+      "/home/astrauka/dev/vinted/tmp/react-webpack-rails-tutorial"
+    ]
+  }
+  {
+    title: "Rollout"
+    paths: [
+      "/home/astrauka/dev/vinted/rollout"
+    ]
+  }
+  {
+    title: "Warehouse Jobs"
+    paths: [
+      "/home/astrauka/dev/vinted/warehouse-jobs"
+    ]
+    settings:
+      "ruby-test":
+        rspecAllCommand: "(cd oozie && bundle exec rspec --tty spec)"
+        rspecFileCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path})"
+        rspecSingleCommand: "(cd oozie && bundle exec rspec --tty ../{relative_path}:{line_number})"
+        specFramework: "rspec"
+  }
+  {
+    title: "Http Relay"
+    paths: [
+      "/home/astrauka/dev/vinted/http-relay"
+    ]
+  }
+  {
+    title: "Event Tracker"
+    paths: [
+      "/home/astrauka/dev/vinted/event-tracker"
+    ]
+  }
+  {
+    title: "Devbook"
+    paths: [
+      "/home/astrauka/dev/vinted/devbook"
+    ]
+  }
+  {
+    title: "Vinted Github Io"
+    paths: [
+      "/home/astrauka/dev/vinted/vinted.github.io"
+    ]
+  }
+  {
+    title: "Redux Form"
+    paths: [
+      "/home/astrauka/dev/vinted/tmp/redux-form"
+    ]
+  }
+  {
+    title: "Pronto-eslint"
+    paths: [
+      "/home/astrauka/dev/vinted/pronto-eslint"
+    ]
+  }
+  {
+    title: "Pronto"
+    paths: [
+      "/home/astrauka/dev/vinted/pronto"
+    ]
+  }
+  {
+    title: "Admin"
+    paths: [
+      "/home/astrauka/dev/vinted/admin"
+    ]
+  }
+  {
+    title: "Hubot"
+    paths: [
+      "/home/astrauka/dev/vinted/hubot"
+    ]
+  }
+  {
+    title: "Herd"
+    paths: [
+      "/home/astrauka/dev/vinted/Herd"
+    ]
+  }
+]
