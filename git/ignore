@@ -7,3 +7,4 @@ tags
 .ensime_cache
 .env.local
 .tern-*
+.idea/

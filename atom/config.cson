@@ -5,7 +5,6 @@
     general:
       _analyticsUserId: "3d393c66-169c-40e9-9d4c-350454ca38cc"
     xml:
-      beautify_on_save: true
       default_beautifier: "JS Beautify"
       indent_size: 2
       wrap_attributes_indent_size: 2
@@ -44,12 +43,14 @@
       "graphviz-preview"
       "markdown-table-formatter"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "atom-material-syntax"
     ]
   editor:
     confirmCheckoutHeadRevision: false
+    fontSize: 13
     preferredLineLength: 99
     tabType: "soft"
   "env-from-shell":
@@ -58,12 +59,14 @@
     userId: "7fdd3e3a-5462-0605-ac3d-e233b2493740"
   "find-and-replace":
     closeFindPanelAfterSearch: true
-    scrollToResultOnLiveSearch: true
-    showSearchWrapIcon: false
   "fuzzy-finder":
     preserveLastSearch: true
+  "git-plus":
+    general:
+      _analyticsUserId: "c5e02e4c-27cb-4295-a647-4b7df943b86d"
   linter:
-    errorPanelHeight: 34
+    errorPanelHeight: 70
+    lintOnFly: false
     showErrorTabFile: false
     showErrorTabLine: true
     showErrorTabProject: false
@@ -81,21 +84,36 @@
   "linter-ruby":
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
   "markdown-preview":
+    liveUpdate: false
     useGitHubStyle: true
   "markdown-table-formatter":
     autoSelectEntireDocument: false
+  pigments:
+    dismissableReloadNotifications: false
+    mergeColorDuplicates: true
+    notifyReloads: false
+  "process-palette":
+    palettePanel: {}
   "project-manager":
     alwaysOpenInSameWindow: true
     closeCurrent: true
     ignoreDirectories: "node_modules, vendorviewer"
   "ruby-test":
-    rspecAllCommand: "bundle exec spring rspec --tty spec"
-    rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
-    rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+    rspecAllCommand: "bundle exec rspec --tty spec"
+    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
     specFramework: "rspec"
   "save-autorun": {}
   "save-commands":
     suppressPanel: true
+  "spell-check":
+    addKnownWords: true
+    knownWords: [
+      "interactor"
+    ]
+  tabs:
+    addNewTabsAtEnd: true
+    enableMruTabSwitching: false
   "tool-bar":
     visible: false
   "tree-view":
