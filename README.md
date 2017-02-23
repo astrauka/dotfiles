@@ -62,4 +62,5 @@ source "$HOME/dotfiles/bashrc/sources/xscast"
 source "$HOME/dotfiles/bashrc/sources/lein"
 source "$HOME/dotfiles/bashrc/sources/emacs"
 source "$HOME/dotfiles/bashrc/sources/rust"
+source "$HOME/dotfiles/bashrc/sources/go"
 ```
