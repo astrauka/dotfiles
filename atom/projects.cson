@@ -191,4 +191,22 @@
       "/home/astrauka/dev/vinted/svc-event-passage"
     ]
   }
+  {
+    title: "Sensu Plugins Kafka"
+    paths: [
+      "/home/astrauka/dev/vinted/sensu-plugins-kafka"
+    ]
+  }
+  {
+    title: "Svc Kafka Mysql Bridge"
+    paths: [
+      "/home/astrauka/dev/vinted/svc-kafka-mysql-bridge"
+    ]
+  }
+  {
+    title: "Test RSpec"
+    paths: [
+      "/home/astrauka/dev/python/TestRSpec"
+    ]
+  }
 ]

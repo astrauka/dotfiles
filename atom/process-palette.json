@@ -36,7 +36,8 @@
       "fatalOutput": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
       "successMessage": "Executed : {fullCommand}",
       "errorMessage": "Executed : {fullCommand}\nReturned with code {exitStatus}\n{stderr}",
-      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}"
+      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
+      "menus": []
     },
     {
       "namespace": "Process Palette",
@@ -65,7 +66,38 @@
       "fatalOutput": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
       "successMessage": null,
       "errorMessage": "Executed : {fullCommand}\nReturned with code {exitStatus}\n{stderr}",
-      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}"
+      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
+      "menus": []
+    },
+    {
+      "namespace": "process-palette",
+      "action": "graphviz twopi build",
+      "command": "/usr/bin/twopi -Tpng {filePath} -o {fileDirPath}/{fileName}.png",
+      "arguments": [],
+      "cwd": null,
+      "inputDialogs": [],
+      "env": {},
+      "keystroke": "shift-cmd-d",
+      "stream": false,
+      "outputTarget": "panel",
+      "outputBufferSize": 80000,
+      "maxCompleted": 3,
+      "autoShowOutput": false,
+      "autoHideOutput": false,
+      "scrollLockEnabled": false,
+      "singular": true,
+      "promptToSave": false,
+      "saveOption": "referenced",
+      "patterns": [
+        "default"
+      ],
+      "successOutput": "{stdout}",
+      "errorOutput": "{stdout}\n{stderr}",
+      "fatalOutput": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
+      "successMessage": null,
+      "errorMessage": "Executed : {fullCommand}\nReturned with code {exitStatus}\n{stderr}",
+      "fatalMessage": "Failed to execute : {fullCommand}\n{stdout}\n{stderr}",
+      "menus": []
     }
   ]
 }
