@@ -65,13 +65,7 @@
     general:
       _analyticsUserId: "c5e02e4c-27cb-4295-a647-4b7df943b86d"
   linter:
-    errorPanelHeight: 70
     lintOnChange: false
-    lintOnFly: false
-    showErrorTabFile: false
-    showErrorTabLine: true
-    showErrorTabProject: false
-    statusIconScope: "File"
   "linter-erb":
     erbExecutablePath: "/home/astrauka/.rbenv/shims/erb"
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
@@ -102,9 +96,9 @@
     closeCurrent: true
     ignoreDirectories: "node_modules, vendorviewer"
   "ruby-test":
-    rspecAllCommand: "bundle exec spring rspec --tty spec"
-    rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
-    rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
+    rspecAllCommand: "bundle exec rspec --tty spec"
+    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
     specFramework: "rspec"
   "save-autorun": {}
   "save-commands":

@@ -100,6 +100,12 @@
     paths: [
       "/home/astrauka/dev/vinted/pronto"
     ]
+    settings:
+      "ruby-test":
+        rspecAllCommand: "bundle exec rspec --tty spec"
+        rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+        rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+        specFramework: "rspec"
   }
   {
     title: "Admin"
@@ -207,6 +213,12 @@
     title: "Test RSpec"
     paths: [
       "/home/astrauka/dev/python/TestRSpec"
+    ]
+  }
+  {
+    title: "Cs Tool"
+    paths: [
+      "/home/astrauka/dev/vinted/cs-tool"
     ]
   }
 ]
