@@ -37,7 +37,11 @@
       "Thumbs.db"
       "node_modules"
       "vendor"
+      "build"
+      ".gradle"
       ".tags*"
+      ".idea"
+      "gen"
     ]
     packagesWithKeymapsDisabled: [
       "graphviz-preview"
@@ -96,9 +100,9 @@
     closeCurrent: true
     ignoreDirectories: "node_modules, vendorviewer"
   "ruby-test":
-    rspecAllCommand: "bundle exec rspec --tty spec"
-    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
-    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+    rspecAllCommand: "bundle exec spring rspec --tty spec"
+    rspecFileCommand: "bundle exec spring rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec spring rspec --tty {relative_path}:{line_number}"
     specFramework: "rspec"
   "save-autorun": {}
   "save-commands":

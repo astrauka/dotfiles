@@ -221,4 +221,16 @@
       "/home/astrauka/dev/vinted/cs-tool"
     ]
   }
+  {
+    title: "Awesome Project"
+    paths: [
+      "/home/astrauka/dev/react/AwesomeProject"
+    ]
+  }
+  {
+    title: "Rn Workshop"
+    paths: [
+      "/home/astrauka/dev/react/rn-workshop"
+    ]
+  }
 ]
