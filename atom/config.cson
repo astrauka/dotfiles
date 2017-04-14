@@ -74,7 +74,6 @@
     erbExecutablePath: "/home/astrauka/.rbenv/shims/erb"
     rubyExecutablePath: "/home/astrauka/.rbenv/shims/ruby"
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     globalNodePath: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/node"
   "linter-flow":
     executablePath: "/home/astrauka/.nvm/versions/node/v6.3.0/bin/flow"

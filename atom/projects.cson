@@ -233,4 +233,34 @@
       "/home/astrauka/dev/react/rn-workshop"
     ]
   }
+  {
+    title: "Javascript"
+    paths: [
+      "/home/astrauka/exercism/javascript"
+    ]
+  }
+  {
+    title: "Images"
+    paths: [
+      "/home/astrauka/dev/vinted/images"
+    ]
+  }
+  {
+    title: "Svc Location"
+    paths: [
+      "/home/astrauka/dev/vinted/svc-location"
+    ]
+  }
+  {
+    title: "Svc Videos"
+    paths: [
+      "/home/astrauka/dev/vinted/svc-videos"
+    ]
+  }
+  {
+    title: "People"
+    paths: [
+      "/home/astrauka/dev/vinted/people"
+    ]
+  }
 ]
