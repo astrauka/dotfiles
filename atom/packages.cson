@@ -47,6 +47,7 @@
   'parcel'
   'pigments'
   'platformio-ide-terminal'
+  'prettier-atom'
   'process-palette'
   'project-manager'
   'ruby-test'

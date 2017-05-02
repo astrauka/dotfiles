@@ -92,6 +92,15 @@
     dismissableReloadNotifications: false
     mergeColorDuplicates: true
     notifyReloads: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      printWidth: 99
+      semi: false
+      singleQuote: true
+      tabWidth: "2"
+      trailingComma: "all"
   "process-palette":
     palettePanel: {}
   "project-manager":

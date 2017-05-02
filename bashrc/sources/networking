@@ -1,1 +1,1 @@
-alias restartnetwork="sudo resolvconf -u; sudo service network-manager restart"
+alias restartnetwork="sudo resolvconf -u; sudo service network-manager restart; sudo resolvconf -u"

@@ -263,4 +263,10 @@
       "/home/astrauka/dev/vinted/people"
     ]
   }
+  {
+    title: "React On Rails 6 10"
+    paths: [
+      "/home/astrauka/dev/vinted/tmp/react-on-rails-6_10"
+    ]
+  }
 ]
