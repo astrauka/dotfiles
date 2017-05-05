@@ -1,9 +1,3 @@
-parse_git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
-
-PS1="\`pwd\`\[\033[32m\]\$(parse_git_branch)\[\033[00m\] \$ "
-
 shopt -s histappend # Append to history, don't overwrite it
 shopt -s histreedit # Re-edit a history substitution line if it failed
 shopt -s histverify # # Edit a recalled history line before executing

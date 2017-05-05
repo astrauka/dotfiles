@@ -3,12 +3,8 @@
 set-option -g prefix C-q
 bind-key C-q last-window
 
-# UTF-8 as default
-set-window-option -g utf8 on
-set-option -g status-utf8 on
-
 # Default Shell for Tmux
-set-option -g default-shell /bin/bash
+set-option -g default-shell /bin/zsh
 
 # Color Support
 set -g default-terminal "screen-256color"
@@ -51,8 +47,6 @@ setw -g aggressive-resize on
 
 # Vi copypaste mode
 set-window-option -g mode-keys vi
-bind-key -t vi-copy 'v' begin-selection
-bind-key -t vi-copy 'y' copy-selection
 
 # hjkl pane traversal
 bind h select-pane -L

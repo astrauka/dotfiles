@@ -2,8 +2,8 @@
 
 echo "Configuring npm"
 source "$HOME/dotfiles/install/config.sh"
-NVM_VERSION="0.31.0"
-NODE_VERSION="5.10.1"
+NVM_VERSION="0.33.2"
+NODE_VERSION="7.9.0"
 
 if [[ -e ~/.nvm ]]; then
   echo "Info: configuration already setup. Done"
