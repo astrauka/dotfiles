@@ -8,3 +8,4 @@ storage
 nohup.out
 recovery
 packages
+.projects.cson
