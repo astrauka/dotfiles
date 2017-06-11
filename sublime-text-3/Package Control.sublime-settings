@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"Alignment",
 		"All Autocomplete",
@@ -30,6 +31,7 @@
 		"HTML-CSS-JS Prettify",
 		"Javascript Beautify",
 		"JsFormat",
+		"JSONLint",
 		"Keymaps",
 		"lispindent",
 		"Markdown Extended",

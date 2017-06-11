@@ -7,3 +7,7 @@ export BUNDLER_EDITOR="subl"
 
 # do not disturb terminal by Ctrl-S ctrl-Q
 stty -ixon
+
+function killprocesses {
+  kill $(ps aux | grep '$1' | awk '{print $2}')
+}

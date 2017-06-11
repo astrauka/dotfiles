@@ -8,3 +8,5 @@ tags
 .env.local
 .tern-*
 .idea/
+.vscode
+wallaby.js

@@ -16,6 +16,7 @@
         "**/.sass-cache": true,
         "**/.tmp": true,
         "**/dist": true,
+        "**/target": true,
         "**/maven": true,
         "**/coverage": true,
         "**/vendor": true,
@@ -30,12 +31,23 @@
     "files.associations": {
         "*.vm": "velocity"
     },
-    "projectManager.openInNewWindow": false,
     "explorer.openEditors.visible": 4,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
         "strings": true
     },
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0,
+    "vim.ignorecase": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.openPositioning": "left",
+    "workbench.editor.revealIfOpen": true,
+    "vim.enableNeovim": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.disableAnnoyingGcMessage": true,
+    "auto-run-command.rules": [
+    ]
 }
