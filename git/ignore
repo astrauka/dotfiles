@@ -10,3 +10,4 @@ tags
 .idea/
 .vscode
 wallaby.js
+yarn.lock

@@ -30,13 +30,43 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+i",
-    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "key": "ctrl+shift+k",
+    "command": "editor.action.insertCursorAbove",
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+alt+i",
-    "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+    "key": "alt+cmd+up",
+    "command": "-editor.action.insertCursorAbove",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+right",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "cmd+k cmd+right",
+    "command": "-workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+w ctrl+w",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "cmd+k cmd+k",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder"
   }
 ]

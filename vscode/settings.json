@@ -9,7 +9,7 @@
         "**/.DS_Store": true
     },
     "editor.rulers": [
-        99
+        120
     ],
     "search.exclude": {
         "**/.bundle": true,
@@ -29,7 +29,8 @@
     "files.insertFinalNewline": true,
     "workbench.iconTheme": "vscode-icons",
     "files.associations": {
-        "*.vm": "velocity"
+        "*.vm": "velocity",
+        "*.mjml": "mjml"
     },
     "explorer.openEditors.visible": 4,
     "editor.quickSuggestions": {
@@ -40,14 +41,21 @@
     "files.trimTrailingWhitespace": true,
     "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 0,
-    "vim.ignorecase": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.openPositioning": "left",
     "workbench.editor.revealIfOpen": true,
-    "vim.enableNeovim": true,
-    "vim.disableAnnoyingNeovimMessage": true,
-    "vim.disableAnnoyingGcMessage": true,
-    "auto-run-command.rules": [
-    ]
+    // "auto-run-command.rules": [],
+    "typescript.check.npmIsInstalled": false,
+    "eslint.autoFixOnSave": true,
+    "editor.minimap.enabled": false,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "editor.formatOnSave": false,
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.welcome.enabled": false,
+    "prettier.eslintIntegration": true,
+    "workbench.commandPalette.preserveInput": true,
+    "editor.autoIndent": true
 }
