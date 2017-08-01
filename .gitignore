@@ -1,3 +1,4 @@
 */*.last-run
 bashrc/sources/private/*
 atom/.*
+sublime-text-3/oscrypto-ca-bundle.crt
