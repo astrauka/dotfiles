@@ -32,7 +32,7 @@
         "*.vm": "velocity",
         "*.mjml": "mjml"
     },
-    "explorer.openEditors.visible": 4,
+    "explorer.openEditors.visible": 0,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -49,10 +49,8 @@
     "typescript.check.npmIsInstalled": false,
     "eslint.autoFixOnSave": true,
     "editor.minimap.enabled": false,
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5",
     "prettier.eslintIntegration": true,
+    "prettier.jsonEnable": [],
     "editor.formatOnSave": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.commandPalette.preserveInput": true,
@@ -68,5 +66,9 @@
     "sync.pathPrefix": "",
     "sync.quietSync": false,
     "sync.askGistName": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "window.title": "${activeEditorMedium}${separator}${folderName}",
+    "js-import.codeCompletion": false,
+    "js-import.codeCompletionAction": false,
+    "js-import.filesToScan": "src/**/*.js"
 }

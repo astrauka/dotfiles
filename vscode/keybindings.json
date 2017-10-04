@@ -69,5 +69,15 @@
     "key": "shift+a",
     "command": "explorer.newFolder",
     "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "extension.shortcutImport",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+cmd+h",
+    "command": "-extension.shortcutImport",
+    "when": "editorFocus"
   }
 ]

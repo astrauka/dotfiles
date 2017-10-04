@@ -23,7 +23,7 @@
 [web]
   browser = open
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/karolisa/.gitignore
   editor = vim
 [fetch]
   prune = true
@@ -34,3 +34,9 @@
 [mergetool "meld"]
   trustExitCode = true
   cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
