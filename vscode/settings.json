@@ -49,13 +49,12 @@
     "eslint.autoFixOnSave": true,
     "editor.minimap.enabled": false,
     "prettier.eslintIntegration": true,
-    "prettier.jsonEnable": [],
     "editor.formatOnSave": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.commandPalette.preserveInput": true,
     "editor.autoIndent": true,
     "sync.gist": "28667b4bc715084c71d3904f7e1225f6",
-    "sync.lastUpload": "2017-11-09T10:05:49.697Z",
+    "sync.lastUpload": "2018-02-08T11:31:20.027Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -67,8 +66,21 @@
     "sync.askGistName": false,
     "workbench.startupEditor": "newUntitledFile",
     "window.title": "${activeEditorMedium}${separator}${folderName}",
-    "js-import.filesToScan": "src/**/*.js",
     "editor.accessibilitySupport": "off",
     "workbench.fontAliasing": "antialiased",
-    "js-import.codeCompletionAction": false
+    "js-import.codeCompletionAction": false,
+    "js-import.codeCompletion": false,
+    "js-import.filesToScan": "src/**/*.js",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.renderControlCharacters": false,
+    "js-import.maxLen": 120,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "cypress.json"
+            ],
+            "url": "https://on.cypress.io/cypress.schema.json"
+        }
+    ]
 }
