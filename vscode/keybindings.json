@@ -1,6 +1,11 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
+    "key": "shift+cmd+k",
+    "command": "workbench.action.tasks.runTask",
+    "args": "prettier-eslint"
+  },
+  {
     "key": "ctrl+o",
     "command": "editor.action.goToDeclaration",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
@@ -17,10 +22,12 @@
   {
     "key": "ctrl+a",
     "command": "explorer.newFile",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
   {
     "key": "ctrl+shift+a",
     "command": "explorer.newFolder",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
   {
     "key": "shift+cmd+i",

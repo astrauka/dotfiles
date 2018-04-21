@@ -54,7 +54,7 @@
     "workbench.commandPalette.preserveInput": true,
     "editor.autoIndent": true,
     "sync.gist": "28667b4bc715084c71d3904f7e1225f6",
-    "sync.lastUpload": "2018-02-08T11:31:20.027Z",
+    "sync.lastUpload": "2018-03-05T08:43:34.593Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -82,5 +82,9 @@
             ],
             "url": "https://on.cypress.io/cypress.schema.json"
         }
-    ]
+    ],
+    "auto-run-command.rules": [],
+    "extensions.ignoreRecommendations": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
 }
