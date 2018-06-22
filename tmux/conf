@@ -47,6 +47,7 @@ setw -g aggressive-resize on
 
 # Vi copypaste mode
 set-window-option -g mode-keys vi
+bind -T copy-mode-vi y send -X copy-pipe-and-cancel "reattach-to-user-namespace pbcopy"
 
 # hjkl pane traversal
 bind h select-pane -L

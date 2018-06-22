@@ -54,7 +54,7 @@
     "workbench.commandPalette.preserveInput": true,
     "editor.autoIndent": true,
     "sync.gist": "28667b4bc715084c71d3904f7e1225f6",
-    "sync.lastUpload": "2018-03-05T08:43:34.593Z",
+    "sync.lastUpload": "2018-04-21T19:28:40.732Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -87,4 +87,7 @@
     "extensions.ignoreRecommendations": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
+    "tslint.jsEnable": true,
+    "editor.fontSize": 12,
+    "javascript.updateImportsOnFileMove.enabled": "always",
 }

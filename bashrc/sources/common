@@ -2,6 +2,7 @@ export PATH="$HOME/bin:${PATH}"
 alias lock_screen="qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
 alias start_pomodoro="sleep 1500 && lock_screen; sleep 300 && notify-send 'back to work'"
 alias restart_network="sudo service network-manager restart"
+alias generate_random="cat /dev/urandom | env LC_CTYPE=C tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1"
 export EDITOR="subl -w"
 export BUNDLER_EDITOR="subl"
 

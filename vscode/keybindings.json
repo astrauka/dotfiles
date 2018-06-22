@@ -92,5 +92,22 @@
   {
     "key": "ctrl+w h",
     "command": "workbench.action.moveEditorToPreviousGroup"
-  }
+  },
+  {
+    "key": "ctrl+shift+cmd+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+shift+cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
 ]
