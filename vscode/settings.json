@@ -59,7 +59,6 @@
     "sync.autoUpload": false,
     "sync.lastDownload": "",
     "sync.forceDownload": false,
-    "sync.anonymousGist": false,
     "sync.host": "",
     "sync.pathPrefix": "",
     "sync.quietSync": false,
@@ -89,5 +88,6 @@
     "sync.syncExtensions": true,
     "tslint.jsEnable": true,
     "editor.fontSize": 12,
-    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "vim.ignorecase": false
 }
