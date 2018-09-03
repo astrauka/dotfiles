@@ -65,4 +65,5 @@ source "$HOME/dotfiles/bashrc/sources/emacs"
 source "$HOME/dotfiles/bashrc/sources/rust"
 source "$HOME/dotfiles/bashrc/sources/go"
 source "$HOME/dotfiles/bashrc/sources/react-native"
+source "$HOME/dotfiles/bashrc/sources/bat"
 ```
