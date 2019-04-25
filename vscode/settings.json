@@ -27,7 +27,6 @@
     "terminal.integrated.shell.osx": "/bin/zsh",
     "eslint.run": "onSave",
     "files.insertFinalNewline": true,
-    "workbench.iconTheme": "vscode-icons",
     "files.associations": {
         "*.vm": "velocity",
         "*.mjml": "mjml"
@@ -39,7 +38,6 @@
         "strings": true
     },
     "files.trimTrailingWhitespace": true,
-    "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 0,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -50,17 +48,13 @@
     "editor.minimap.enabled": false,
     "prettier.eslintIntegration": true,
     "editor.formatOnSave": false,
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Material Theme High Contrast",
     "workbench.commandPalette.preserveInput": true,
     "editor.autoIndent": true,
     "sync.gist": "28667b4bc715084c71d3904f7e1225f6",
-    "sync.lastUpload": "2018-04-21T19:28:40.732Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
-    "sync.lastDownload": "",
     "sync.forceDownload": false,
-    "sync.host": "",
-    "sync.pathPrefix": "",
     "sync.quietSync": false,
     "sync.askGistName": false,
     "workbench.startupEditor": "newUntitledFile",
@@ -82,12 +76,30 @@
             "url": "https://on.cypress.io/cypress.schema.json"
         }
     ],
-    "auto-run-command.rules": [],
     "extensions.ignoreRecommendations": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
-    "tslint.jsEnable": true,
-    "editor.fontSize": 12,
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "vim.ignorecase": false
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#388E3C",
+        "list.activeSelectionForeground": "#388E3C",
+        "list.inactiveSelectionForeground": "#388E3C",
+        "list.highlightForeground": "#388E3C",
+        "scrollbarSlider.activeBackground": "#388E3C50",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#388E3C",
+        "notificationLink.foreground": "#388E3C",
+        "editorWidget.resizeBorder": "#388E3C",
+        "editorWidget.border": "#388E3C",
+        "settings.modifiedItemIndicator": "#388E3C",
+        "settings.headerForeground": "#388E3C",
+        "panelTitle.activeBorder": "#388E3C",
+        "breadcrumb.activeSelectionForeground": "#388E3C",
+        "menu.selectionForeground": "#388E3C",
+        "menubar.selectionForeground": "#388E3C"
+    },
+    "materialTheme.accent": "Breaking Bad",
+    "vsicons.dontShowNewVersionMessage": true
 }

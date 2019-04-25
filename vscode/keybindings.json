@@ -30,16 +30,6 @@
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
   {
-    "key": "shift+cmd+i",
-    "command": "insert-cursor-at-beginning-of-each-line-selected.insertCursors",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+alt+i",
-    "command": "-insert-cursor-at-beginning-of-each-line-selected.insertCursors",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "ctrl+shift+k",
     "command": "editor.action.insertCursorAbove",
     "when": "editorTextFocus"
@@ -76,16 +66,6 @@
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "shift+cmd+i",
-    "command": "extension.shortcutImport",
-    "when": "editorFocus"
-  },
-  {
-    "key": "alt+cmd+h",
-    "command": "-extension.shortcutImport",
-    "when": "editorFocus"
-  },
-  {
     "key": "ctrl+w l",
     "command": "workbench.action.moveEditorToNextGroup"
   },
@@ -94,20 +74,8 @@
     "command": "workbench.action.moveEditorToPreviousGroup"
   },
   {
-    "key": "ctrl+shift+cmd+t",
-    "command": "workbench.action.terminal.focus"
-  },
-  {
-    "key": "ctrl+shift+cmd+t",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "cmd+d",
-    "command": "editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus"
-  },
+    "key": "ctrl+o",
+    "command": "list.select",
+    "when": "listFocus"
+  }
 ]

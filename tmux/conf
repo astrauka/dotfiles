@@ -55,6 +55,9 @@ bind j select-pane -D
 bind k select-pane -U
 bind l select-pane -R
 
+# pane
+bind-key z resize-pane -Z
+
 # reload config
 bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
 

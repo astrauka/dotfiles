@@ -4,7 +4,10 @@
 		"performant",
 		"favourites",
 		"plugin",
-		"plugins"
+		"plugins",
+		"blog",
+		"wix",
+		"src"
 	],
 	"animation_enabled": false,
 	"auto_complete_commit_on_tab": true,
