@@ -1,7 +1,7 @@
 # Allows us to use C-a a <command> to send commands to a TMUX session inside
 # another TMUX session
-set-option -g prefix C-q
-bind-key C-q last-window
+set-option -g prefix C-w
+bind-key C-w last-window
 
 # Default Shell for Tmux
 set-option -g default-shell /bin/zsh
