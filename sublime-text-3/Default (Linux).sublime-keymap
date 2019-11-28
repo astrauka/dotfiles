@@ -33,7 +33,7 @@
   { "keys": ["alt+'"], "command": "change_quotes" },
   { "keys": ["ctrl+s"], "command": "save" },
   { "keys": ["alt+w"], "command": "close" },
-  { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["ctrl+d"], "command": "quick_add_next", "args": {"forward": true} },
 
   { "keys": ["enter"], "command": "next_result", "context": [
     {"key": "selector", "operator": "equal", "operand": "text.find-in-files" }]},

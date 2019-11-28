@@ -12,3 +12,4 @@ tags
 wallaby.js
 yarn.lock
 communities-blog-cypress
+*.iml
