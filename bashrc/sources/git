@@ -2,6 +2,6 @@ alias ggm="git checkout master; git pull"
 alias gdm="git diff master"
 alias gdmc="git diff master --compact-summary"
 alias ggbr="git for-each-ref --sort=committerdate refs/heads/"
-alias ggbrpurge='git branch --merged | grep -v "\*" | grep -v "master" | grep -v "develop" | grep -v "staging" | xargs -n 1 git branch -d'
+alias ggbrpurge='git branch | grep -v "master" | xargs git branch -D'
 alias ggpf="git add --all; git commit --amend; git push -f"
 alias ggpfs="export PREPUSH_LINT=false; git add --all; git commit --amend; git push -f; export PREPUSH_LINT=true"
